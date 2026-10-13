@@ -63,8 +63,10 @@ body :is(h1, h2, h3, h4, h5, h6) { text-transform: uppercase !important; }
 .inner-page .local-faq__heading { display: flex; flex-direction: column; align-items: flex-start; gap: 1rem; }
 .inner-page .local-faq__heading h2 { width: 100%; }
 .inner-page .local-faq__heading p { max-width: 65ch; }
-.inner-page > :is(.section, .local-faq, .contact-panel) { padding: 3rem 2.75rem; border-radius: .65rem; background: #fff; }
-.inner-page > :is(.section, .local-faq, .contact-panel):nth-of-type(odd) { background: #edf1f5; }
+.inner-page > :is(.section, .local-faq, .contact-panel) { padding: 3rem 2.75rem; border-radius: .65rem; }
+/* Semantic dark panels keep their own surface and foreground pairing. */
+.inner-page > :is(.section, .local-faq, .contact-panel):not(.method-panel, .expertise-panel) { background: #fff; }
+.inner-page > :is(.section, .local-faq, .contact-panel):not(.method-panel, .expertise-panel):nth-of-type(odd) { background: #edf1f5; }
 .home-page .home-about, .home-page .home-process { background: #edf1f5; }
 .home-page .home-process { padding: 3.5rem 2rem; border-radius: .65rem; }
 .home-page .home-process__steps article { background: #fff; }
