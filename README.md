@@ -20,7 +20,7 @@ Connect this repository's `main` branch to a Cloudflare Worker:
 - Root directory: repository root
 - Build command: `npm run build`
 - Deploy command: `npx wrangler deploy`
-- Worker name: `antons-blocked-drains-hills-district` (must match `wrangler.jsonc`)
+- Worker name: `blocked-drain-hills-district` (must match `wrangler.jsonc`)
 - Static assets: `dist`
 - Custom domain: `blockeddrainshillsdistrict.com.au`
 
