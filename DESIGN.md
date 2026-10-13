@@ -46,7 +46,8 @@ rounded:
   mobile-call: "999px"
 spacing:
   section: "clamp(5rem, 9vw, 9rem)"
-  outer: "clamp(1.25rem, 5vw, 5rem)"
+  outer: "clamp(1rem, 4vw, 3rem)"
+  panel: "clamp(1.25rem, 3vw, 3rem)"
   inner-gutter: "clamp(1rem, 3vw, 2rem)"
 components:
   button-call:
@@ -86,7 +87,7 @@ The system uses CSS layout and restrained state changes. Photography supplies ev
 **Key Characteristics:**
 
 - Condensed uppercase headings paired with readable Barlow body copy.
-- Full-width tonal bands and real field photographs.
+- Centred tonal bands with consistent outer margins and real field photographs.
 - Ruled service, cause, equipment and area registers.
 - Prominent phone actions and visible keyboard focus.
 
@@ -129,9 +130,9 @@ Body text normally uses the frontmatter body role. Supporting hero text is sligh
 
 ## Layout
 
-The homepage uses edge-to-edge bands with responsive inset padding. Its hero splits approximately 46/54 between copy and photography; equipment and experience sections split evenly. Section introductions pair a large narrow heading with a shorter explanatory paragraph. Cause and equipment details use ruled paired columns, while the process register has four columns and local coverage has four columns on wide screens.
+All main content, including the homepage closing call band, uses a centred 75rem maximum-width shell with responsive 1–3rem outer gutters. Homepage panels use 1.25–3rem internal gutters. Its hero splits approximately 46/54 between copy and photography; equipment and experience sections split evenly. Section introductions pair a large narrow heading with a shorter explanatory paragraph. Equipment definitions stack labels over descriptions to preserve readable space in the capped split panel. The process register and local coverage have four columns on wide screens.
 
-At 900px and below, hero, cause, equipment and experience layouts stack; process becomes two columns and coverage becomes three. At 640px and below, introductions and paired details stack, process becomes one column and coverage retains two. Reviews use three columns on wide screens and collapse to one through the shared 760px breakpoint. Preserve these actual overlapping breakpoints when extending the site.
+At 900px and below, hero, cause, equipment, experience and section introductions stack; process becomes two columns and coverage becomes three. At 760px and below, symptom rows, reviews and hero actions stack, and coverage becomes two columns. At 640px and below, paired details and process become one column. Coverage becomes one column at 480px and below, with smaller fluid display headings for narrow phones. DOM reading order remains unchanged. Header and footer backgrounds span the viewport while their contents align to the shared shell.
 
 The header and inner-page shells use a 75rem maximum width. Header navigation changes to its menu control at 1180px. The header is sticky above 760px, with scroll padding to protect anchored content; at 760px and below a fixed bottom call bar appears with safe-area spacing and reserved body padding. Inner pages keep inset panels and collapse to one-column layouts at that same breakpoint, with a separate 1050px compact-layout adjustment.
 

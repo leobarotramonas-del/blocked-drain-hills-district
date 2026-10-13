@@ -10,7 +10,8 @@
   --display: 'Saira Extra Condensed', 'Arial Narrow', sans-serif;
   --body: 'Barlow', Arial, sans-serif;
   --page-width: 75rem;
-  --page-gutter: clamp(1rem, 3vw, 2rem);
+  --page-gutter: clamp(1rem, 4vw, 3rem);
+  --panel-gutter: clamp(1.25rem, 3vw, 3rem);
 }
 
 /* Antons Blocked Drains — cause-led homepage */

@@ -1,3 +1,49 @@
+/* One centred shell for all routes, including the homepage closing call band. */
+main#main {
+  width: min(var(--page-width), calc(100% - 2 * var(--page-gutter)));
+  margin: 1.5rem auto 4rem;
+}
+.site-header, .site-footer { padding-inline: var(--page-gutter); }
+.drain-home :is(.drain-hero__copy, .urgent-strip, .drain-section, .cause-section, .local-section, .equipment-copy),
+.drain-home .experience-section > div { padding-inline: var(--panel-gutter); }
+.drain-home :is(.equipment-section, .experience-section) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.drain-home :is(section, article, li, a, .equipment-copy, .section-heading) > * { min-width: 0; }
+.drain-home :is(h1, h2, h3, p, dt, dd, strong, small) { overflow-wrap: break-word; }
+.drain-home .equipment-copy dl div { grid-template-columns: 1fr; gap: .5rem; }
+.drain-home .symptom-list a { grid-template-columns: minmax(0, .8fr) minmax(0, 1fr) auto; }
+.drain-home .local-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+@media (min-width: 761px) and (max-width: 1050px) {
+  .site-header__inner { grid-template-columns: minmax(0, 1fr) auto auto; gap: 1rem; }
+  .header-licence { display: none; }
+}
+@media (max-width: 900px) {
+  .drain-home :is(.equipment-section, .experience-section) { grid-template-columns: minmax(0, 1fr); }
+  .drain-home .section-heading, .drain-home .local-section__heading { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .drain-home .local-section__heading > a { justify-self: start; }
+  .drain-home .local-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .drain-home .symptom-list a { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .drain-home .symptom-list strong { grid-column: 1 / -1; }
+}
+@media (max-width: 760px) {
+  main#main { margin-block: 1rem 3rem; }
+  .drain-home .reviews-section .review-list { grid-template-columns: minmax(0, 1fr); }
+  .drain-home .local-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .drain-home .symptom-list a { grid-template-columns: minmax(0, 1fr); }
+  .drain-home .symptom-list p, .drain-home .symptom-list strong { grid-column: 1; }
+  .drain-hero__actions { width: 100%; }
+  .drain-hero__actions > a { width: 100%; justify-content: center; }
+  .drain-hero__actions .call-button { flex-wrap: wrap; }
+  .drain-home .equipment-copy > .home-text-link { display: inline-flex; align-items: center; min-height: 2.75rem; margin-top: .75rem; }
+}
+@media (max-width: 480px) {
+  .drain-home .local-grid { grid-template-columns: minmax(0, 1fr); }
+  .drain-home .local-grid a { min-height: 8rem; }
+  .drain-home .drain-hero h1 { font-size: clamp(3rem, 14vw, 4rem); }
+  .drain-home :is(.drain-section .section-heading h2, .cause-section h2, .equipment-copy h2, .local-section h2, .experience-section h2) { font-size: clamp(2.75rem, 12vw, 3.5rem); }
+  .site-footer__inner { gap: 2rem 1rem; }
+}
+
 /* Full heading wording, wider measures and a restrained section rhythm. */
 main :is(h1, h2) { text-wrap: balance; }
 /* Keep all heading levels uppercase, including shared footer headings. */
