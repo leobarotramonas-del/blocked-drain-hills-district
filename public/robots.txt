@@ -1,0 +1,10 @@
+User-agent: AhrefsSiteAudit
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://blockeddrainshillsdistrict.com.au/sitemap.xml

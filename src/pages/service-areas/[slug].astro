@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import FaqSection from '../../components/FaqSection.astro';
+import HonestReviews from '../../components/HonestReviews.astro';
+import { areas, services, site } from '../../data/site';
+import { faqSchema } from '../../data/faqs';
+
+export function getStaticPaths() { return areas.map((area) => ({ params: { slug: area.slug }, props: { area } })); }
+const { area } = Astro.props;
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'Service', name: `Blocked drain service ${area.name}`, serviceType: 'Blocked drain clearing and repair', provider: { '@type': 'Plumber', name: site.name, legalName: site.operator, telephone: '+61 493 824 176' }, areaServed: { '@type': 'City', name: `${area.name}, NSW ${area.postcode}` } },
+  faqSchema(area.faqs),
+];
+---
+<BaseLayout title={area.title} description={area.description} schema={schema}>
+  <PageHero label={`${area.name} NSW ${area.postcode}`} title={`Blocked Drains ${area.name}`} intro={area.intro} image={area.image} imageAlt={area.imageAlt} />
+  <section class="section detail-grid">
+    <div><h2>Drainage Context in {area.name}</h2><p>{area.name} includes {area.property}. {area.localIssue}.</p><p>That local context does not diagnose a specific drain. We use the actual symptoms, access and pipe condition to choose the appropriate professional method.</p></div>
+    <div><h2>Planning the Visit</h2><p>{area.access}. Tell us whether one fixture or several are affected, when the problem began and whether wastewater is overflowing.</p><p>Urgent calls are taken 24/7. Attendance is subject to current availability and safe access.</p></div>
+  </section>
+  <section class="section expertise-panel"><div><h2>Blocked Drain Expertise for {area.name}</h2><p>Our process moves from symptoms to clearing, evidence and repair. It avoids treating every recurring blockage as a simple maintenance problem.</p></div><ul class="check-list">{area.expertise.map((item) => <li>{item}</li>)}</ul></section>
+  <section class="section slim-section"><h2>Blocked Drain Services in {area.name}</h2><div class="service-list">{services.map((service, index) => <a class="service-row" href={`/services/${service.slug}/`}><span>{String(index + 1).padStart(2, '0')}</span><h3>{service.name}</h3><p>{service.summary}</p></a>)}</div></section>
+  <HonestReviews intro={`Read genuine customer feedback about the Antons team serving ${area.name} and the wider Hills District.`} />
+  <FaqSection title={`${area.name} Blocked Drain Questions`} intro={`Useful answers about causes, equipment, access and urgent drainage calls in ${area.name}.`} items={area.faqs} />
+  <CtaBand title={`Call a Drain Plumber for ${area.name}`} />
+</BaseLayout>

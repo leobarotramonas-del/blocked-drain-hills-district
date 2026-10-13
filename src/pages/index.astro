@@ -1,0 +1,101 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ResponsiveImage from '../components/ResponsiveImage.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { areas, faqs, reviews, services, site } from '../data/site';
+
+const schema = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
+};
+
+const journey = [
+  { title: 'Describe the symptoms', text: 'Tell us which fixtures are affected, what happens when water is used and whether anything is overflowing.' },
+  { title: 'Find the restriction', text: 'We inspect the accessible drain and decide whether mechanical clearing, jetting or another method suits the line.' },
+  { title: 'Confirm the cause', text: 'Where recurrence or damage is suspected, CCTV and locating equipment can show what is happening and where.' },
+  { title: 'Clear, repair, prevent', text: 'We separate the immediate clearing from any recommended repair, then explain practical ways to reduce another blockage.' },
+];
+
+const causes = [
+  ['Roots', 'Roots enter existing cracks and open joints. Cutting restores flow; repairing the entry point addresses the defect.'],
+  ['Grease and residue', 'Fats, soap, hair and sediment narrow the usable pipe over time and may need controlled cleaning.'],
+  ['Wipes and objects', 'Items labelled flushable can remain intact, catch on rough pipework and build a larger obstruction.'],
+  ['Broken pipework', 'Movement, age or poor support can displace, crush or collapse a section so debris keeps collecting.'],
+];
+---
+<BaseLayout title="Blocked Drains Hills District | Antons 24/7" description="Blocked drain in the Hills District? Call Antons for professional drain clearing, CCTV inspection, water jetting and repair advice. Urgent calls answered 24/7." schema={schema}>
+  <div class="drain-home">
+    <section class="drain-hero" aria-labelledby="hero-title">
+      <div class="drain-hero__copy">
+        <h1 id="hero-title">Blocked drains cleared with the cause in sight.</h1>
+        <p>Professional blocked-drain diagnosis, clearing and repair across the Hills District. We bring the equipment to restore flow, inspect the line and explain what will reduce the chance of it happening again.</p>
+        <div class="drain-hero__actions">
+          <a class="call-button" href={site.phoneHref}><span>Call a Drain Plumber</span><strong>{site.phoneDisplay}</strong></a>
+          <a class="home-button home-button--light" href="/services/">See Drain Services</a>
+        </div>
+        <ul class="drain-proof"><li>Urgent calls answered 24/7</li><li>NSW licence {site.licence}</li><li>25+ years’ plumbing experience</li><li>Hills District coverage</li></ul>
+      </div>
+      <div class="drain-hero__media">
+        <ResponsiveImage src="/images/blocked-drains.webp" alt="Antons plumber using professional drain-clearing equipment at an outdoor access point" widths={[480, 768, 1200]} sizes="(max-width: 760px) 100vw, 52vw" loading="eager" fetchpriority="high" />
+        <div class="drain-hero__note"><strong>Find it. Clear it. Check it.</strong><span>Jetting · CCTV · repair</span></div>
+      </div>
+    </section>
+
+    <section class="urgent-strip" aria-label="Immediate blocked drain advice">
+      <strong>Overflowing now?</strong><p>Stop using connected fixtures. Keep people and pets away from wastewater. Do not add chemicals.</p><a href={site.phoneHref}>Call {site.phoneDisplay}</a>
+    </section>
+
+    <section class="drain-section symptom-section" aria-labelledby="symptoms-title">
+      <div class="section-heading"><h2 id="symptoms-title">Start with what the drain is doing.</h2><p>You do not need to diagnose the fault. Choose the symptom closest to yours and see how a professional assessment narrows down the cause.</p></div>
+      <div class="symptom-list">
+        {services.slice(0, 4).map((service) => <a href={`/services/${service.slug}/`}><h3>{service.name}</h3><p>{service.summary}</p><strong>See signs and solutions</strong></a>)}
+      </div>
+    </section>
+
+    <section class="cause-section" aria-labelledby="causes-title">
+      <div class="cause-section__intro"><h2 id="causes-title">A blockage is a symptom. The cause decides the fix.</h2><p>DIY plunging may move a soft local obstruction, but recurring, multi-fixture or outdoor blockages can sit deeper in the system. Professional equipment helps clear the line without pretending every drain has the same problem.</p></div>
+      <div class="cause-register">{causes.map(([title, text]) => <article><h3>{title}</h3><p>{text}</p></article>)}</div>
+    </section>
+
+    <section class="equipment-section" aria-labelledby="equipment-title">
+      <div class="equipment-photo"><ResponsiveImage src="/images/drain-camera-inspection.webp" alt="CCTV drain camera and monitor used to inspect underground pipework" widths={[480, 768, 1000]} sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" /></div>
+      <div class="equipment-copy">
+        <h2 id="equipment-title">Professional tools turn guesswork into evidence.</h2>
+        <p>Our licensed drain plumbers select equipment for the symptom, access and condition of the pipe—not simply the most forceful tool on the vehicle.</p>
+        <dl>
+          <div><dt>High-pressure water jetter</dt><dd>Uses controlled water and purpose-selected nozzles to remove suitable roots, grease, silt and deposits.</dd></div>
+          <div><dt>CCTV drain camera</dt><dd>Shows accessible internal pipe conditions after flow and visibility are established.</dd></div>
+          <div><dt>Electronic locator</dt><dd>Relates a camera finding to a position and approximate depth at the surface for targeted repair planning.</dd></div>
+          <div><dt>Drain-repair materials</dt><dd>Compatible PVC drainage pipe, fittings, bedding and backfill are selected for the line and agreed repair scope.</dd></div>
+        </dl>
+        <a class="home-button home-button--blue" href="/services/">Explore Tools &amp; Methods</a> <a class="home-text-link" href="/contact/">Ask about your drain</a>
+      </div>
+    </section>
+
+    <section class="drain-section process-section" aria-labelledby="process-title">
+      <div class="section-heading"><h2 id="process-title">From first call to a drain that makes sense.</h2><p>Clear communication is part of the work. We explain the immediate task, the evidence found and any separate repair recommendation.</p></div>
+      <ol>{journey.map((step, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>
+    </section>
+
+    <section class="local-section" aria-labelledby="areas-title">
+      <div class="local-section__heading"><h2 id="areas-title">Blocked drain expertise across the Hills District.</h2><p>Property age, trees, slope, access and shared services all influence the right drainage approach. Each local guide explains the practical considerations for that area.</p><a href="/service-areas/">View all service areas</a></div>
+      <div class="local-grid">{areas.map((area) => <a href={`/service-areas/${area.slug}/`}><span>{area.postcode}</span><strong>{area.name}</strong><small>{area.property}</small></a>)}</div>
+    </section>
+
+    <section class="experience-section" aria-labelledby="experience-title">
+      <ResponsiveImage src="/images/team.webp" alt="Three Antons plumbers standing beside a blue service vehicle" widths={[420, 700, 1000]} sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" />
+      <div><h2 id="experience-title">Experienced drain plumbers, backed by Antons.</h2><p>Antons Blocked Drains Hills District is operated by Antons Enterprises Pty Ltd. The team brings more than 25 years of plumbing experience, NSW contractor licence {site.licence}, specialist drainage equipment and the judgement to know when clearing is enough—and when the pipe itself needs attention.</p><p>We keep the public promise simple: practical questions, appropriate equipment, a clear explanation and agreed work.</p><a class="home-button home-button--light" href="/about/">About the Team</a></div>
+    </section>
+
+    <section class="drain-section reviews-section" id="reviews" aria-labelledby="reviews-title">
+      <div class="section-heading"><h2 id="reviews-title">Customers remember the explanation.</h2><p>Genuine feedback for the Antons team, including customers who were shown drain-camera findings and walked through the repair.</p></div>
+      <div class="review-list">{reviews.map((review) => <figure><blockquote>“{review.text}”</blockquote><figcaption>{review.name}</figcaption></figure>)}</div>
+    </section>
+
+    <section class="drain-section faq-section" aria-labelledby="faq-title">
+      <div class="section-heading"><h2 id="faq-title">Blocked-drain questions, answered clearly.</h2><p>Useful guidance before you call. If wastewater is overflowing, stop using affected fixtures and contact a professional.</p></div>
+      <div class="faq-list">{faqs.map((faq) => <details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div>
+    </section>
+  </div>
+  <CtaBand title="Tell Us What Your Drain Is Doing" />
+</BaseLayout>

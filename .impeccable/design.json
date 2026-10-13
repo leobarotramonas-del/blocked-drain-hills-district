@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T00:56:44.303Z",
+  "title": "Design System: Antons Blocked Drains Hills District",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "neutral",
+        "displayName": "Night Navy",
+        "tonalRamp": [
+          "oklch(15% 0.075 260)",
+          "oklch(26% 0.075 260)",
+          "oklch(38% 0.075 260)",
+          "oklch(49% 0.075 260)",
+          "oklch(61% 0.075 260)",
+          "oklch(72% 0.075 260)",
+          "oklch(84% 0.075 260)",
+          "oklch(95% 0.075 260)"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Dispatch Blue",
+        "tonalRamp": [
+          "oklch(15% 0.22 260)",
+          "oklch(26% 0.22 260)",
+          "oklch(38% 0.22 260)",
+          "oklch(49% 0.22 260)",
+          "oklch(61% 0.22 260)",
+          "oklch(72% 0.22 260)",
+          "oklch(84% 0.22 260)",
+          "oklch(95% 0.22 260)"
+        ]
+      },
+      "red": {
+        "role": "secondary",
+        "displayName": "Signal Red",
+        "tonalRamp": [
+          "oklch(15% 0.22 25)",
+          "oklch(26% 0.22 25)",
+          "oklch(38% 0.22 25)",
+          "oklch(49% 0.22 25)",
+          "oklch(61% 0.22 25)",
+          "oklch(72% 0.22 25)",
+          "oklch(84% 0.22 25)",
+          "oklch(95% 0.22 25)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "tonalRamp": [
+          "oklch(15% 0.015 90)",
+          "oklch(26% 0.015 90)",
+          "oklch(38% 0.015 90)",
+          "oklch(49% 0.015 90)",
+          "oklch(61% 0.015 90)",
+          "oklch(72% 0.015 90)",
+          "oklch(84% 0.015 90)",
+          "oklch(95% 0.015 90)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "tonalRamp": [
+          "oklch(15% 0.035 255)",
+          "oklch(26% 0.035 255)",
+          "oklch(38% 0.035 255)",
+          "oklch(49% 0.035 255)",
+          "oklch(61% 0.035 255)",
+          "oklch(72% 0.035 255)",
+          "oklch(84% 0.035 255)",
+          "oklch(95% 0.035 255)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Register Line",
+        "tonalRamp": [
+          "oklch(15% 0.02 255)",
+          "oklch(26% 0.02 255)",
+          "oklch(38% 0.02 255)",
+          "oklch(49% 0.02 255)",
+          "oklch(61% 0.02 255)",
+          "oklch(72% 0.02 255)",
+          "oklch(84% 0.02 255)",
+          "oklch(95% 0.02 255)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "equipment-surface": {
+        "role": "neutral",
+        "displayName": "Equipment Surface",
+        "tonalRamp": [
+          "oklch(15% 0.015 240)",
+          "oklch(26% 0.015 240)",
+          "oklch(38% 0.015 240)",
+          "oklch(49% 0.015 240)",
+          "oklch(61% 0.015 240)",
+          "oklch(72% 0.015 240)",
+          "oklch(84% 0.015 240)",
+          "oklch(95% 0.015 240)"
+        ]
+      },
+      "focus": {
+        "role": "accent",
+        "displayName": "Focus Yellow",
+        "tonalRamp": [
+          "oklch(15% 0.16 90)",
+          "oklch(26% 0.16 90)",
+          "oklch(38% 0.16 90)",
+          "oklch(49% 0.16 90)",
+          "oklch(61% 0.16 90)",
+          "oklch(72% 0.16 90)",
+          "oklch(84% 0.16 90)",
+          "oklch(95% 0.16 90)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Condensed Display",
+        "purpose": "Homepage hero; scoped mobile and inner-page rules differ."
+      },
+      "headline": {
+        "displayName": "Section Headline",
+        "purpose": "Narrow homepage section headings."
+      },
+      "body": {
+        "displayName": "Working Copy",
+        "purpose": "Explanations and useful service information."
+      }
+    },
+    "shadows": [
+      {
+        "name": "call-rest",
+        "value": "0 10px 24px rgb(82 0 9 / 22%)",
+        "purpose": "Primary phone control at rest, except header."
+      },
+      {
+        "name": "call-hover",
+        "value": "0 14px 30px rgb(82 0 9 / 28%)",
+        "purpose": "Phone control hover."
+      },
+      {
+        "name": "photo-note",
+        "value": "0 12px 28px rgb(4 12 28 / 28%)",
+        "purpose": "Blue hero photo caption."
+      },
+      {
+        "name": "mobile-menu",
+        "value": "0 20px 38px rgb(4 12 28 / 32%)",
+        "purpose": "Expanded mobile navigation."
+      },
+      {
+        "name": "mobile-call",
+        "value": "0 6px 20px rgb(8 25 57 / 28%)",
+        "purpose": "Fixed mobile phone pill."
+      }
+    ],
+    "motion": [
+      {
+        "name": "interaction",
+        "value": "180ms ease-out",
+        "purpose": "Button and service-row state changes."
+      },
+      {
+        "name": "button-lift",
+        "value": "translateY(-2px)",
+        "purpose": "Hovered primary and secondary buttons."
+      },
+      {
+        "name": "service-shift",
+        "value": "translateX(.35rem)",
+        "purpose": "Homepage service links on hover and focus; inner rows suppress movement."
+      },
+      {
+        "name": "reduced",
+        "value": ".01ms",
+        "purpose": "Reduced-motion transition and animation duration; smooth scrolling becomes auto."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "small-home",
+        "value": "640px"
+      },
+      {
+        "name": "mobile-shell",
+        "value": "760px"
+      },
+      {
+        "name": "stack-home",
+        "value": "900px"
+      },
+      {
+        "name": "compact-inner-layout",
+        "value": "1050px"
+      },
+      {
+        "name": "compact-navigation",
+        "value": "1180px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Phone Action",
+      "kind": "button",
+      "refersTo": "button-call",
+      "description": "Primary telephone link.",
+      "html": "<a class=\"ds-call\" href=\"tel:+61493824176\"><span>Call a Drain Plumber</span><strong>0493 824 176</strong></a>",
+      "css": ".ds-call{display:inline-flex;align-items:center;justify-content:center;gap:.65rem;min-height:3.7rem;padding:.7rem 1.15rem;background:var(--red,#e90917);color:#fff;font:700 1rem/1 var(--body,Barlow,Arial,sans-serif);text-decoration:none;box-shadow:0 10px 24px rgb(82 0 9 / 22%);transition:background-color .18s ease-out,transform .18s ease-out,box-shadow .18s ease-out}.ds-call span{font-size:.75rem;letter-spacing:.1em}.ds-call strong{font-size:1.08rem;font-variant-numeric:tabular-nums}.ds-call:hover{background:#c9000d;transform:translateY(-2px);box-shadow:0 14px 30px rgb(82 0 9 / 28%)}.ds-call:focus-visible{outline:3px solid var(--focus,#ffca28);outline-offset:4px}@media(prefers-reduced-motion:reduce){a{transition-duration:.01ms!important}}"
+    },
+    {
+      "name": "Blue Method Action",
+      "kind": "button",
+      "refersTo": "button-blue",
+      "description": "Secondary link to methods and service explanations.",
+      "html": "<a class=\"ds-blue\" href=\"/services/\">Explore Tools &amp; Methods</a>",
+      "css": ".ds-blue{display:inline-flex;align-items:center;justify-content:center;min-height:3rem;padding:.75rem 1.15rem;border-radius:.3rem;background:var(--blue,#0869f7);color:#fff;font:700 .76rem/1.6 var(--body,Barlow,Arial,sans-serif);letter-spacing:.07em;text-decoration:none;transition:transform .18s ease-out,background-color .18s ease-out}.ds-blue:hover{background:#005bd8;transform:translateY(-2px)}.ds-blue:focus-visible{outline:3px solid var(--focus,#ffca28);outline-offset:4px}@media(prefers-reduced-motion:reduce){a{transition-duration:.01ms!important}}"
+    },
+    {
+      "name": "Light Secondary Action",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Secondary navigation on dark or blue sections.",
+      "html": "<div class=\"ds-dark\"><a class=\"ds-light\" href=\"/about/\">About the Team</a></div>",
+      "css": ".ds-dark{padding:1rem;background:var(--navy,#081939)}.ds-light{display:inline-flex;align-items:center;justify-content:center;min-height:3rem;padding:.75rem 1.15rem;border-radius:.3rem;background:#fff;color:var(--navy,#081939);font:700 .76rem/1.6 var(--body,Barlow,Arial,sans-serif);letter-spacing:.07em;text-decoration:none;transition:transform .18s ease-out,background-color .18s ease-out}.ds-light:hover{transform:translateY(-2px)}.ds-light:focus-visible{outline:3px solid var(--focus,#ffca28);outline-offset:4px}@media(prefers-reduced-motion:reduce){a{transition-duration:.01ms!important}}"
+    },
+    {
+      "name": "Desktop Navigation",
+      "kind": "nav",
+      "description": "Tracked text navigation against navy.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Example navigation\"><a href=\"/services/\">Services</a><a href=\"/service-areas/\">Areas</a><a href=\"/about/\">About</a><a href=\"/contact/\">Contact</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:1.5rem;padding:1.5rem;background:var(--navy,#081939);color:#fff}.ds-nav a{font:700 .84rem/1.6 var(--body,Barlow,Arial,sans-serif);letter-spacing:.08em;text-decoration:none;color:inherit}.ds-nav a:hover{color:#78b7ff}.ds-nav a:focus-visible{outline:3px solid var(--focus,#ffca28);outline-offset:4px}"
+    },
+    {
+      "name": "Area Register",
+      "kind": "custom",
+      "refersTo": "area-register",
+      "description": "Postcode, suburb and property context within a ruled navigation cell.",
+      "html": "<a class=\"ds-area\" href=\"/service-areas/baulkham-hills/\"><span>2153</span><strong>Baulkham Hills</strong><small>Established homes, mature trees and shared drainage access.</small></a>",
+      "css": ".ds-area{display:flex;flex-direction:column;min-height:10rem;max-width:22rem;padding:1.4rem;background:var(--equipment-surface,#e9edf0);color:var(--navy,#081939);border:1px solid #aab4c1;border-top:2px solid var(--navy,#081939);text-decoration:none;font:400 1rem/1.6 var(--body,Barlow,Arial,sans-serif)}.ds-area span{color:var(--red,#e90917);font-size:.7rem;font-weight:700}.ds-area strong{margin-top:.7rem;font:700 2rem/.95 var(--display,'Saira Extra Condensed','Arial Narrow',sans-serif)}.ds-area small{margin-top:auto;color:var(--muted,#526070);line-height:1.35}.ds-area:hover,.ds-area:focus-visible{background:var(--blue,#0869f7);color:#fff}.ds-area:hover span,.ds-area:focus-visible span{color:#fff}.ds-area:hover small,.ds-area:focus-visible small{color:#eaf3ff}.ds-area:focus-visible{outline:3px solid var(--focus,#ffca28);outline-offset:4px}"
+    },
+    {
+      "name": "FAQ Disclosure",
+      "kind": "custom",
+      "description": "Native disclosure with condensed summary and a plus/minus marker.",
+      "html": "<details class=\"ds-faq\"><summary>Can I use chemical drain cleaner?</summary><p>A professional assessment helps identify the cause and the appropriate clearing method.</p></details>",
+      "css": ".ds-faq{border-top:2px solid var(--navy,#081939);border-bottom:1px solid var(--line,#bcc5cf);background:var(--paper,#f7f5ef);color:var(--navy,#081939)}.ds-faq summary{cursor:pointer;padding:1.35rem 3rem 1.35rem 0;position:relative;font:700 2rem/1 var(--display,'Saira Extra Condensed','Arial Narrow',sans-serif);list-style:none}.ds-faq summary::-webkit-details-marker{display:none}.ds-faq summary::after{content:'+';position:absolute;right:.4rem;top:1.25rem;color:var(--blue,#0869f7);font-family:var(--body,Barlow,Arial,sans-serif)}.ds-faq[open] summary::after{content:'−'}.ds-faq p{max-width:70ch;margin:0;padding:0 0 1.5rem;color:var(--muted,#526070);font:400 1rem/1.6 var(--body,Barlow,Arial,sans-serif)}.ds-faq summary:focus-visible{outline:3px solid var(--focus,#ffca28);outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Antons Field-Service Manual",
+    "overview": "The implemented identity is direct, capable and practical: night navy, dispatch blue, signal red and warm paper frame condensed headings, factual labels and real Antons field photography. Dense service information is organised into ruled registers, with generous space around the larger explanations.\n\nThe system uses CSS layout and restrained state changes. Photography supplies evidence of technicians, vehicles and equipment; strong tonal sections carry the composition. This document records the implementation in `src/styles/global.css`, `inner-pages.css`, `section-layout.css` and the Astro components, checked against the final desktop and mobile captures in `.impeccable/review/`. Existing inner-page rounding and the mobile call pill are documented exceptions to the predominantly square language.",
+    "keyCharacteristics": [
+      "Condensed uppercase headings paired with readable Barlow body copy.",
+      "Full-width tonal bands and real field photographs.",
+      "Ruled service, cause, equipment and area registers.",
+      "Prominent phone actions and visible keyboard focus."
+    ],
+    "rules": [
+      {
+        "name": "The Functional Accent Rule",
+        "body": "Use red for urgency and phone access, and blue for navigation, capability and interactive register states.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Voice Rule",
+        "body": "Use condensed type for hierarchy and short service names; use Barlow for explanations, navigation and action labels.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do preserve real Antons field photography and its diagnostic context.",
+      "Do use ruled registers for related services, methods and locations.",
+      "Do preserve visible focus, reduced-motion behaviour and large mobile call targets.",
+      "Do read the complete stylesheet cascade before changing a shared component."
+    ],
+    "donts": [
+      "Don't replace the condensed/Barlow pairing with a generic interface font system.",
+      "Don't turn every content group into a floating rounded card.",
+      "Don't use urgency colours as arbitrary decoration or invent visual proof claims.",
+      "Don't remove mobile call-bar clearance or obscure actionable text beneath fixed UI."
+    ]
+  }
+}

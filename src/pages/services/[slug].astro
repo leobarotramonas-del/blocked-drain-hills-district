@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import FaqSection from '../../components/FaqSection.astro';
+import HonestReviews from '../../components/HonestReviews.astro';
+import { areas, services, site } from '../../data/site';
+import { faqSchema, serviceFaqs } from '../../data/faqs';
+
+export function getStaticPaths() { return services.map((service) => ({ params: { slug: service.slug }, props: { service } })); }
+const { service } = Astro.props;
+const faqs = serviceFaqs[service.slug];
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'Service', name: `${service.name} in the Hills District`, serviceType: service.name, provider: { '@type': 'Plumber', name: site.name, legalName: site.operator, telephone: '+61 493 824 176' }, areaServed: areas.map((area) => ({ '@type': 'City', name: `${area.name}, NSW` })) },
+  faqSchema(faqs),
+];
+---
+<BaseLayout title={`${service.name} Hills District`} description={`${service.summary} Learn the signs, causes, professional tools and repair options, then call ${site.phoneDisplay} for Hills District service.`} schema={schema}>
+  <PageHero label="Blocked Drain Service" title={`${service.name} in the Hills District`} intro={service.summary} image={service.image} imageAlt={service.imageAlt} />
+  <section class="section detail-grid">
+    <div><h2>Signs to Look For</h2><ul class="check-list">{service.signs.map((item) => <li>{item}</li>)}</ul></div>
+    <div><h2>Common Causes</h2><ul class="check-list">{service.causes.map((item) => <li>{item}</li>)}</ul></div>
+  </section>
+  <section class="section method-panel">
+    <div><h2>How a Professional Approaches It</h2><p>{service.method}</p><p>Regulated drainage work is completed under NSW contractor licence {site.licence}. The legal operator and licence details are available on our <a href="/about/">About page</a>.</p></div>
+    <div><h2>Tools and Materials</h2><ul class="check-list">{service.tools.map((item) => <li>{item}</li>)}</ul></div>
+  </section>
+  <section class="section slim-section"><h2>{service.name} Across the Hills District</h2><p>We publish detailed local guidance for the areas below. Call with your full address to confirm current coverage and access requirements.</p><div class="area-links">{areas.map((area) => <a href={`/service-areas/${area.slug}/`}><strong>{area.name}</strong><span>{area.postcode}</span></a>)}</div></section>
+  <HonestReviews intro="Customers value clear explanations and being shown what was found. These are genuine reviews of the Antons team behind this service." />
+  <FaqSection title={`${service.name} Questions`} intro="Practical answers about causes, equipment, safety and booking." items={faqs} />
+  <CtaBand title={`Talk to a Professional About ${service.name}`} />
+</BaseLayout>
