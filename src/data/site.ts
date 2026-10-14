@@ -24,6 +24,22 @@ export const services = [
 
 type ServiceAreaSeed = { slug: string; name: string; postcode: string; property: string; localIssue: string; access: string; image: string; imageAlt: string };
 
+// Council-verified orientation points help callers describe their address. They do not imply completed jobs nearby.
+const localOrientation: Record<string, string> = {
+  'baulkham-hills': 'Around Crestwood Reserve and Seven Hills Road, tell us if the affected line runs through a rear yard or beneath a driveway. The street address and the nearest inspection opening are more useful for planning than the suburb alone.',
+  'castle-hill': 'Castle Hill Showground and Showground Road are useful local reference points. For a property with basement parking or shared drainage, let us know who can provide access to the relevant service area.',
+  kellyville: 'If you are near Bernie Mullane Sports Complex on Marella Avenue, give us the full street address rather than the landmark alone. Finished landscaping and side-gate width can affect how clearing equipment reaches the drain.',
+  'north-kellyville': 'Around Samantha Riley Drive Reserve, newer streets can still have drainage faults. If you have a drainage plan or know where the outdoor inspection opening is, keep those details ready for the call.',
+  'rouse-hill': 'Near Connie Lowe Reserve and Adelphi Street, homes and managed properties may have different access arrangements. Mention a shared basement, locked gate or strata contact when you call.',
+  'winston-hills': 'Third Settlement Reserve and Edison Parade help locate one part of Winston Hills, but a drainage visit depends on the exact address. Tell us if the affected line is at a lower level or crosses a rear yard.',
+  'bella-vista': 'Bella Vista Farm Park and Elizabeth Macarthur Drive are familiar local reference points. For a managed building, confirm the loading entrance, the person who can open the plant area and whether the drain is shared.',
+  'beaumont-hills': 'Around Caddies Creek Reserve and Millcroft Way, describe where any stormwater pit or sewer inspection opening sits on your block. That is more useful for equipment planning than a landmark alone.',
+  glenhaven: 'Near Alice Robinson Reserve and Fingal Avenue, longer garden or rear-yard pipe runs may need a clear access plan. Tell us about gates, retaining walls and the last visible inspection point.',
+  dural: 'Old Northern Road and Roughley House are useful orientation points in Dural, where addresses can be spread out. Please also tell us whether the property has a septic system and whether the driveway suits a service vehicle.',
+  cherrybrook: 'Greenway Park is a familiar Cherrybrook reference point. On a sloping block, let us know if the blocked line runs below a retaining wall or across a rear easement before a repair is planned.',
+  'west-pennant-hills': 'Bellamy Farm Reserve and Isobell Avenue are useful reference points, but the drain layout varies by property. Mention mature trees, pool areas and any known sewer easement when booking.',
+};
+
 const areaSeeds: ServiceAreaSeed[] = [
   { slug: 'baulkham-hills', name: 'Baulkham Hills', postcode: '2153', property: 'established detached homes, townhouses, apartments and commercial properties', localIssue: 'Older drainage, mature trees and mixed generations of renovation can make recurring roots, damaged joints and shared-line faults worth investigating', access: 'Tell us about side access, retaining walls, strata approval or a basement before equipment is brought to site', image: '/images/area-baulkham-hills.webp', imageAlt: 'Three Antons service vehicles parked together' },
   { slug: 'castle-hill', name: 'Castle Hill', postcode: '2154', property: 'established homes, newer apartments and busy town-centre properties', localIssue: 'Tree-lined blocks, sloping sites and shared services can affect where a blockage appears and how the drain can be reached', access: 'For apartments or commercial sites, confirm loading, parking and building-manager access when booking', image: '/images/team.webp', imageAlt: 'Three Antons plumbers standing with a blue service vehicle' },
@@ -41,6 +57,7 @@ const areaSeeds: ServiceAreaSeed[] = [
 
 export const areas = areaSeeds.map((area) => ({
   ...area,
+  localOrientation: localOrientation[area.slug],
   title: `Blocked Drains ${area.name} NSW ${area.postcode}`,
   description: `Blocked drain in ${area.name} ${area.postcode}? Call for professional drain clearing, CCTV inspection and repair advice across the Hills District. Available 24/7.`,
   intro: `Blocked toilets, slow wastes, sewer overflows and stormwater backups in ${area.name} need the cause identified before the right clearing or repair method can be chosen.`,

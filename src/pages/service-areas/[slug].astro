@@ -10,7 +10,7 @@ import { faqSchema } from '../../data/faqs';
 export function getStaticPaths() { return areas.map((area) => ({ params: { slug: area.slug }, props: { area } })); }
 const { area } = Astro.props;
 const schema = [
-  { '@context': 'https://schema.org', '@type': 'Service', name: `Blocked drain service ${area.name}`, serviceType: 'Blocked drain clearing and repair', provider: { '@type': 'Plumber', name: site.name, legalName: site.operator, telephone: '+61 493 824 176' }, areaServed: { '@type': 'City', name: `${area.name}, NSW ${area.postcode}` } },
+  { '@context': 'https://schema.org', '@type': 'Service', name: `Blocked drain service ${area.name}`, serviceType: 'Blocked drain clearing and repair', description: area.intro, provider: { '@type': 'Plumber', name: site.name, legalName: site.operator, telephone: '+61 493 824 176' }, areaServed: { '@type': 'Place', name: `${area.name}, NSW ${area.postcode}`, address: { '@type': 'PostalAddress', addressLocality: area.name, postalCode: area.postcode, addressRegion: 'NSW', addressCountry: 'AU' } } },
   faqSchema(area.faqs),
 ];
 ---
@@ -18,7 +18,7 @@ const schema = [
   <PageHero label={`${area.name} NSW ${area.postcode}`} title={`Blocked Drains ${area.name}`} intro={area.intro} image={area.image} imageAlt={area.imageAlt} />
   <section class="section detail-grid">
     <div><h2>Drainage Context in {area.name}</h2><p>{area.name} includes {area.property}. {area.localIssue}.</p><p>That local context does not diagnose a specific drain. We use the actual symptoms, access and pipe condition to choose the appropriate professional method.</p></div>
-    <div><h2>Planning the Visit</h2><p>{area.access}. Tell us whether one fixture or several are affected, when the problem began and whether wastewater is overflowing.</p><p>Urgent calls are taken 24/7. Attendance is subject to current availability and safe access.</p></div>
+    <div><h2>Planning the Visit</h2><p>{area.access}. Tell us whether one fixture or several are affected, when the problem began and whether wastewater is overflowing.</p><p>{area.localOrientation}</p><p>Urgent calls are taken 24/7. We confirm the current attendance estimate for your full address when you call; travel and job times vary with availability, traffic and safe access.</p></div>
   </section>
   <section class="section expertise-panel"><div><h2>Blocked Drain Expertise for {area.name}</h2><p>Our process moves from symptoms to clearing, evidence and repair. It avoids treating every recurring blockage as a simple maintenance problem.</p></div><ul class="check-list">{area.expertise.map((item) => <li>{item}</li>)}</ul></section>
   <section class="section slim-section"><h2>Blocked Drain Services in {area.name}</h2><div class="service-list">{services.map((service, index) => <a class="service-row" href={`/services/${service.slug}/`}><span>{String(index + 1).padStart(2, '0')}</span><h3>{service.name}</h3><p>{service.summary}</p></a>)}</div></section>
