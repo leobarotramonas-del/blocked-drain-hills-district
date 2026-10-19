@@ -21,7 +21,7 @@ export const serviceFaqs = Object.fromEntries(services.map((service) => [service
   { question: 'Can I pour chemical cleaner into the drain first?', answer: 'Avoid adding chemical cleaner when the cause is unknown. It may not reach the obstruction and can create a hazard for the plumber working on the line.' },
   { question: 'Are urgent calls taken after hours?', answer: 'Yes. Urgent blocked-drain calls are taken 24 hours, 7 days a week. Attendance depends on current availability, safe access and the work required.' },
   { question: 'How is the price worked out?', answer: 'Cost depends on access, time, equipment, blockage location and whether damaged pipework is found. The proposed diagnostic or clearing scope and applicable charges are explained before agreed work proceeds.' },
-  { question: 'Who is responsible for licensed drainage work?', answer: `The service is operated by ${site.operator}. Regulated work is performed under NSW contractor licence ${site.licence}.` },
+  { question: 'Who is responsible for licensed drainage work?', answer: `The service is provided by ${site.operator}. Regulated work is performed under NSW contractor licence ${site.licence}.` },
 ]])) as Record<string, readonly FaqItem[]>;
 
 export const pageFaqs = {
@@ -39,11 +39,11 @@ export const pageFaqs = {
     { question: 'Do you attend homes, strata and commercial properties?', answer: 'Yes. Mention building management, parking, loading, induction or approval requirements when booking.' },
     { question: 'Can you service acreage properties?', answer: 'Some larger and semi-rural properties can be attended. Describe gate access, driveway conditions, on-site wastewater arrangements and the nearest known drainage access point.' },
     { question: 'Are urgent calls available in every listed suburb?', answer: 'Urgent calls are taken 24/7, while attendance remains subject to technician availability, safe access and the work required.' },
-    { question: 'Who holds the drainage contractor licence?', answer: `${site.operator} operates the service under NSW contractor licence ${site.licence}.` },
+    { question: 'Who provides the licensed drainage service?', answer: `${site.operator} provides the service under NSW contractor licence ${site.licence}.` },
   ],
   about: [
-    { question: 'Who is Antons Blocked Drains Hills District?', answer: `It is the Hills District blocked-drain service operated by ${site.operator}, focused on professional drain diagnosis, clearing and repair.` },
-    { question: 'How much experience does the team have?', answer: 'The established Antons team brings more than 25 years of plumbing experience to blocked-drain enquiries and repairs.' },
+    { question: 'Who is Antons Blocked Drains Hills District?', answer: `It is the Hills District blocked-drain service provided by ${site.operator}, focused on professional drain diagnosis, clearing and repair.` },
+    { question: 'How much experience does the team have?', answer: `${site.operator} brings more than 25 years of plumbing experience to blocked-drain enquiries and repairs.` },
     { question: 'Are you licensed?', answer: `Regulated work is performed under NSW contractor licence ${site.licence}.` },
     { question: 'What makes a professional drain assessment different?', answer: 'A professional assessment considers symptoms, access, pipe condition and the possibility of a deeper fault before selecting equipment. That reduces guesswork and helps separate temporary clearing from a lasting repair.' },
     { question: 'Do you use specialist equipment?', answer: 'Yes. Depending on the job, the team may use high-pressure jetting, CCTV inspection, electronic locating, root-cutting and targeted excavation equipment.' },

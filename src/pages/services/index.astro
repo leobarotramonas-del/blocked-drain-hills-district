@@ -7,7 +7,7 @@ import { services } from '../../data/site';
 import { faqSchema, pageFaqs } from '../../data/faqs';
 ---
 <BaseLayout title="Blocked Drain Services Hills District" description="Explore professional blocked drain services across the Hills District: toilet and sewer clearing, water jetting, CCTV inspections, root removal and drain repairs." schema={faqSchema(pageFaqs.services)}>
-  <PageHero label="Drain Services" title="The right method starts with the cause." intro="Choose the symptom or professional method you want to understand. Every service page explains warning signs, common causes, equipment and the practical repair path." image="/images/drain-camera-inspection.webp" imageAlt="Antons plumber carrying out a CCTV drain inspection" />
+  <PageHero label="Drain Services" title="Blocked drain services matched to the cause." intro="Choose the symptom or professional method you want to understand. Every service page explains warning signs, common causes, equipment and the practical repair path." image="/images/drain-camera-inspection.webp" imageAlt="Drain plumber carrying out a CCTV pipe inspection" />
   <section class="section service-directory">
     <p>If you are unsure which service fits, <a href="/contact/">contact the drain team</a> and describe what the drain is doing. You do not need to diagnose it yourself. You can also check our <a href="/service-areas/">Hills District service areas</a>.</p>
     {services.map((service) => <article><h2>{service.name}</h2><p>{service.summary}</p><ul>{service.details.map((detail) => <li>{detail}</li>)}</ul><a class="text-link" href={`/services/${service.slug}/`}>Understand {service.name}</a></article>)}

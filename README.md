@@ -32,7 +32,7 @@ Production builds are indexable by default. Set `PUBLIC_ALLOW_INDEXING=false` fo
 
 The site contains eight drainage service pages and twelve locality pages. Business details and content are in `src/data/site.ts`; FAQ content is in `src/data/faqs.ts`. Existing Antons job photography is reused without asserting that the photographs were taken in a particular Hills District suburb.
 
-Public brand: Antons Blocked Drains Hills District. Operator: Antons Enterprises Pty Ltd. NSW contractor licence: 210933C. Phone: 0493 824 176.
+Website name: Antons Blocked Drains Hills District. Service provider: Antons Plumbing & Gas. NSW contractor licence: 210933C. Phone: 0493 824 176.
 
 ## Verification scope
 

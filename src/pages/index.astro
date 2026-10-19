@@ -23,7 +23,7 @@ const causes = [
   ['Broken pipework', 'Movement, age or poor support can displace, crush or collapse a section so debris keeps collecting.'],
 ];
 ---
-<BaseLayout title="Blocked Drains Hills District | Antons 24/7" description="Blocked drain in the Hills District? Call Antons for professional drain clearing, CCTV inspection, water jetting and repair advice. Urgent calls answered 24/7." schema={schema}>
+<BaseLayout title="24/7 Drain Plumber Hills District | Antons Blocked Drains" description="Blocked drain in the Hills District? Call for professional drain clearing, CCTV inspection, high-pressure water jetting and drain repair advice. Urgent calls answered 24/7." schema={schema}>
   <div class="drain-home">
     <section class="drain-hero" aria-labelledby="hero-title">
       <div class="drain-hero__copy">
@@ -36,7 +36,7 @@ const causes = [
         <ul class="drain-proof"><li>Urgent calls answered 24/7</li><li>NSW licence {site.licence}</li><li>25+ years’ plumbing experience</li><li>Hills District coverage</li></ul>
       </div>
       <div class="drain-hero__media">
-        <ResponsiveImage src="/images/blocked-drains.webp" alt="Antons plumber using professional drain-clearing equipment at an outdoor access point" widths={[360, 480, 672]} quality={52} sizes="(max-width: 760px) calc(100vw - 2rem), 52vw" loading="eager" fetchpriority="high" />
+        <ResponsiveImage src="/images/blocked-drains.webp" alt="Drain plumber using high-pressure drain-clearing equipment at an outdoor access point" widths={[360, 480, 672]} quality={52} sizes="(max-width: 760px) calc(100vw - 2rem), 52vw" loading="eager" fetchpriority="high" />
         <div class="drain-hero__note"><strong>Find it. Clear it. Check it.</strong><span>Jetting · CCTV · repair</span></div>
       </div>
     </section>
@@ -83,12 +83,12 @@ const causes = [
     </section>
 
     <section class="experience-section" aria-labelledby="experience-title">
-      <ResponsiveImage src="/images/team.webp" alt="Three Antons plumbers standing beside a blue service vehicle" widths={[420, 700, 1000]} sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" />
-      <div><h2 id="experience-title">Experienced drain plumbers, backed by Antons.</h2><p>Antons Blocked Drains Hills District is operated by Antons Enterprises Pty Ltd. The team brings more than 25 years of plumbing experience, NSW contractor licence {site.licence}, specialist drainage equipment and the judgement to know when clearing is enough—and when the pipe itself needs attention.</p><p>We keep the public promise simple: practical questions, appropriate equipment, a clear explanation and agreed work.</p><a class="home-button home-button--light" href="/about/">About the Team</a></div>
+      <ResponsiveImage src="/images/team.webp" alt="Three licensed plumbers standing beside a blue service vehicle" widths={[420, 700, 1000]} sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" />
+      <div><h2 id="experience-title">Licensed blocked-drain plumbers for the Hills District.</h2><p>{site.name} is provided by {site.operator}. The team brings more than 25 years of plumbing experience, NSW contractor licence {site.licence}, specialist drain-clearing equipment and the judgement to know when clearing is enough—and when damaged pipework needs attention.</p><p>Expect practical questions, appropriate equipment, a clear explanation and agreed work.</p><a class="home-button home-button--light" href="/about/">Meet the Drain Team</a></div>
     </section>
 
     <section class="drain-section reviews-section" id="reviews" aria-labelledby="reviews-title">
-      <div class="section-heading"><h2 id="reviews-title">Customers remember the explanation.</h2><p>Genuine feedback for the Antons team, including customers who were shown drain-camera findings and walked through the repair.</p></div>
+      <div class="section-heading"><h2 id="reviews-title">Customers remember the explanation.</h2><p>Genuine feedback from plumbing customers, including people who were shown CCTV drain-camera findings and guided through the repair options.</p></div>
       <div class="review-list">{reviews.map((review) => <figure><blockquote>“{review.text}”</blockquote><figcaption>{review.name}</figcaption></figure>)}</div>
     </section>
 

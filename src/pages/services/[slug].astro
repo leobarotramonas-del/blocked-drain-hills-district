@@ -11,7 +11,7 @@ export function getStaticPaths() { return services.map((service) => ({ params: {
 const { service } = Astro.props;
 const faqs = serviceFaqs[service.slug];
 const schema = [
-  { '@context': 'https://schema.org', '@type': 'Service', name: `${service.name} in the Hills District`, serviceType: service.name, provider: { '@type': 'Plumber', name: site.name, legalName: site.operator, telephone: '+61 493 824 176' }, areaServed: areas.map((area) => ({ '@type': 'City', name: `${area.name}, NSW` })) },
+  { '@context': 'https://schema.org', '@type': 'Service', name: `${service.name} in the Hills District`, serviceType: service.name, provider: { '@type': 'Plumber', name: site.name, alternateName: site.operator, telephone: '+61 493 824 176' }, areaServed: areas.map((area) => ({ '@type': 'City', name: `${area.name}, NSW` })) },
   faqSchema(faqs),
 ];
 ---
@@ -22,11 +22,11 @@ const schema = [
     <div><h2>Common Causes</h2><ul class="check-list">{service.causes.map((item) => <li>{item}</li>)}</ul></div>
   </section>
   <section class="section method-panel">
-    <div><h2>How a Professional Approaches It</h2><p>{service.method}</p><p>Regulated drainage work is completed under NSW contractor licence {site.licence}. The legal operator and licence details are available on our <a href="/about/">About page</a>.</p></div>
+    <div><h2>How a Professional Approaches It</h2><p>{service.method}</p><p>Regulated drainage work is completed under NSW contractor licence {site.licence}. The service provider and licence details are available on our <a href="/about/">About page</a>.</p></div>
     <div><h2>Tools and Materials</h2><ul class="check-list">{service.tools.map((item) => <li>{item}</li>)}</ul></div>
   </section>
   <section class="section slim-section"><h2>{service.name} Across the Hills District</h2><p>We publish detailed local guidance for the areas below. Call with your full address to confirm current coverage and access requirements.</p><div class="area-links">{areas.map((area) => <a href={`/service-areas/${area.slug}/`}><strong>{area.name}</strong><span>{area.postcode}</span></a>)}</div></section>
-  <HonestReviews intro="Customers value clear explanations and being shown what was found. These are genuine reviews of the Antons team behind this service." />
+  <HonestReviews intro={`Customers value clear explanations and being shown what was found. These are genuine reviews of the ${site.operator} team behind this Hills District service.`} />
   <FaqSection title={`${service.name} Questions`} intro="Practical answers about causes, equipment, safety and booking." items={faqs} />
   <CtaBand title={`Talk to a Professional About ${service.name}`} />
 </BaseLayout>

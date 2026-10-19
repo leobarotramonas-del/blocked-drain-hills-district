@@ -20,7 +20,7 @@ Generate qualified phone enquiries for professional blocked-drain diagnosis, cle
 
 ## Positioning
 
-Antons Blocked Drains Hills District is a specialist local drain-service brand backed by the established Antons team. It distinguishes professional cause-led diagnosis and durable repair planning from temporary DIY clearing.
+Antons Blocked Drains Hills District is a specialist local drain-service website provided by Antons Plumbing & Gas. It distinguishes professional cause-led diagnosis and durable repair planning from temporary DIY clearing.
 
 ## Operating Context
 
@@ -41,7 +41,7 @@ Visitors may be facing a blocked toilet, slow sink or shower, gurgling pipework,
 ## Brand Commitments
 
 - Public-facing name: Antons Blocked Drains Hills District.
-- Legal operator: Antons Enterprises Pty Ltd, stated on the homepage, About/Contact/legal pages, licence disclosures and footer rather than repeated throughout ordinary copy.
+- Service provider: Antons Plumbing & Gas, stated on the homepage, About/Contact/legal pages, licence disclosures and footer rather than repeated throughout ordinary copy.
 - NSW contractor licence: 210933C.
 - More than 25 years of plumbing experience, as already stated in the supplied Hills District site.
 - Tone: positive, calm, capable and helpful; explain why trained, licensed professionals with the right equipment are better placed to diagnose and resolve blocked drains safely.
@@ -53,7 +53,7 @@ Visitors may be facing a blocked toilet, slow sink or shower, gurgling pipework,
 - Real Antons vehicle, technician, drain-camera, drainage excavation and repair photography in `../the-ryde-plumber/public/images/` and `../the-hills-district-plumber/public/images/`.
 - Verified customer-review excerpts already used by the supplied Ryde site; the new site must preserve their wording and avoid review schema.
 - Existing Hills District service-area content confirms Baulkham Hills, Castle Hill, Kellyville, North Kellyville, Winston Hills and Rouse Hill as priority areas.
-- The supplied Ryde product record states NSW contractor licence 210933C for Antons Enterprises Pty Ltd and licence classes including Plumber and Drainer.
+- Current business direction identifies Antons Plumbing & Gas as the service provider associated with NSW contractor licence 210933C.
 
 ## Product Principles
 
