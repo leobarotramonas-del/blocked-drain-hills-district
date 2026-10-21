@@ -5,7 +5,7 @@ export const site = {
   licence: '210933C',
   phoneDisplay: '0493 824 176',
   phoneHref: 'tel:+61493824176',
-  analyticsId: '',
+  analyticsId: 'G-GVWCKJNH32',
   hours: '24 hours, 7 days a week',
   region: "Sydney's Hills District, NSW",
   url: 'https://blockeddrainshillsdistrict.com.au',
