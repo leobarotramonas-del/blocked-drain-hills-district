@@ -1,4 +1,5 @@
 ---
+import WeekOneGuides from "../../components/WeekOneGuides.astro";
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import CtaBand from '../../components/CtaBand.astro';
@@ -29,4 +30,5 @@ const schema = [
   <HonestReviews intro={`Customers value clear explanations and being shown what was found. These are genuine reviews of the ${site.operator} team behind this Hills District service.`} />
   <FaqSection title={`${service.name} Questions`} intro="Practical answers about causes, equipment, safety and booking." items={faqs} />
   <CtaBand title={`Talk to a Professional About ${service.name}`} />
+  <WeekOneGuides service={Astro.url.pathname} title="Guides for this service" />
 </BaseLayout>
