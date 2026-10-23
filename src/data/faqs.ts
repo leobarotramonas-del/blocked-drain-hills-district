@@ -42,7 +42,7 @@ export const pageFaqs = {
     { question: 'Who provides the licensed drainage service?', answer: `${site.operator} provides the service under NSW contractor licence ${site.licence}.` },
   ],
   about: [
-    { question: 'Who is Antons Blocked Drains Hills District?', answer: `It is the Hills District blocked-drain service provided by ${site.operator}, focused on professional drain diagnosis, clearing and repair.` },
+    { question: 'Who is Antons Blocked Drains Hills District?', answer: `${site.name} provides local drain diagnosis, clearing, CCTV inspections, water jetting and repairs. The service is operated by ${site.operator}.` },
     { question: 'How much experience does the team have?', answer: `${site.operator} brings more than 25 years of plumbing experience to blocked-drain enquiries and repairs.` },
     { question: 'Are you licensed?', answer: `Regulated work is performed under NSW contractor licence ${site.licence}.` },
     { question: 'What makes a professional drain assessment different?', answer: 'A professional assessment considers symptoms, access, pipe condition and the possibility of a deeper fault before selecting equipment. That reduces guesswork and helps separate temporary clearing from a lasting repair.' },
