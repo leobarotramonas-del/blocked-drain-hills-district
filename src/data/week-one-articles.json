@@ -1078,5 +1078,118 @@
     "image": "/images/blog-w03-06-3-featured.webp",
     "width": 800,
     "height": 1067
+  },
+  {
+    "site": 5,
+    "category": "Sewer drains",
+    "serviceSlug": "sewer-drain-blockages",
+    "photo": 49,
+    "seoTitle": "Several Slow Drains Baulkham Hills | Find the Blockage",
+    "description": "Several drains slowing together in Baulkham Hills? Learn which symptoms point to a shared sewer restriction and what to report before clearing.",
+    "imageAlt": "Plumber operating drain jetting equipment",
+    "caption": "Several affected fixtures can call for an investigation of the shared drainage route.",
+    "introduction": "<p>When several drains slow down together in a Baulkham Hills home, the restriction may be in a shared line rather than each fixture. Stop using water if wastewater is backing up, note which outlets are affected and call a drain plumber. A proper check should locate the restriction before repeated clearing or chemical treatments.</p>",
+    "takeaways": [
+      "List every affected fixture and when it changed.",
+      "Reduce water use if a toilet or floor waste backs up.",
+      "Avoid adding chemical cleaner to a shared blockage.",
+      "Ask what was found after the line is cleared."
+    ],
+    "faqs": [
+      [
+        "Do several slow drains mean a sewer blockage?",
+        "They raise that possibility, but inspection is needed to confirm it."
+      ],
+      [
+        "Should I keep flushing the toilet?",
+        "No if water is rising or another fixture backs up."
+      ],
+      [
+        "Can drain cleaner fix it?",
+        "Avoid adding chemicals, especially when a plumber may work on the line."
+      ],
+      [
+        "Is the outdoor gully the fault location?",
+        "Not necessarily. It may be where an upstream problem becomes visible."
+      ],
+      [
+        "Should I lift an inspection cap?",
+        "Leave heavy or unfamiliar covers to the plumber."
+      ],
+      [
+        "Can jetting clear roots?",
+        "It may restore flow, but a failed joint may still need repair."
+      ],
+      [
+        "What if the blockage returns?",
+        "Share the previous findings and ask about camera inspection."
+      ],
+      [
+        "Does strata need to know?",
+        "Yes when shared drainage or common access may be involved."
+      ],
+      [
+        "What information helps a booking?",
+        "List affected fixtures, overflow, access and previous work."
+      ],
+      [
+        "What should I ask after clearing?",
+        "Ask what caused the restriction and whether the line could be inspected."
+      ]
+    ],
+    "conclusion": "Several slow drains call for a shared-line check, especially if fixtures affect one another. Stop water use during a backup and keep a record of the clearing findings.",
+    "ctaAnchor": "Baulkham Hills sewer drain service",
+    "ctaTail": "Give Blocked Drains Hills District a call with the affected fixtures and access details.",
+    "body": "<h2 id=\"map-the-symptoms-before-booking\">Map the symptoms before booking</h2><p>A slow basin alone may be local to its trap or waste, while the shower, toilet and laundry slowing together points farther along the route. Tell the plumber which fixture first showed trouble and whether flushing affects another drain. Do not keep running the washing machine to test the pattern. The sequence of symptoms helps choose an access point but cannot confirm the blockage without inspection.</p><h2 id=\"protect-the-home-from-overflow\">Protect the home from overflow</h2><p>If sewage appears at a floor waste or outdoor gully, stop connected water use and keep people and animals away. Do not try to force wastewater down with more flushing. Avoid touching contaminated surfaces without appropriate protection. If the overflow is close to an electrical outlet or equipment, stay clear. Tell the plumber whether there is an active overflow so the urgency and safe access can be discussed.</p><h2 id=\"prepare-access-to-the-line\">Prepare access to the line</h2><p>Show any visible inspection opening from a safe distance and explain gates, paving, stairs or narrow side passages. In a townhouse or strata property, ask the manager whether a shared line or common area may be involved. Previous camera footage or clearing records are useful, especially if the problem returned soon after a visit. Do not remove a heavy cap yourself or assume you know which pipe serves which fixture.</p><h2 id=\"decide-whether-clearing-settled-the-cause\">Decide whether clearing settled the cause</h2><p>Suitable mechanical tools or jetting can restore flow, but roots, a damaged joint or a low section can produce recurring symptoms. Ask whether the plumber could inspect the pipe after clearing and what the findings show. A recommendation for repair should identify a defect, location and scope. If no defect is visible, note that limit rather than treating an assumption as a confirmed diagnosis.</p><h2 id=\"keep-each-lines-role-clear\">Keep each line's role clear</h2><p>A kitchen waste, floor waste and toilet can connect through different branches before reaching the main drain. The fact that one fixture still empties does not rule out a restriction elsewhere. Tell the plumber which outlet is highest, lowest or nearest the outdoor gully if you know. Do not open inspection points to map the system yourself. A controlled check can establish the affected section.</p><h2 id=\"document-a-repeat-fault\">Document a repeat fault</h2><p>If the plumber restores flow, ask what material was removed and whether the line could be viewed after clearing. Note the date and the location reached. If the same symptoms return, this information helps decide whether another clean is sensible or whether pipe condition needs investigation. Do not accept a structural repair recommendation based only on the fact that a blockage happened twice.</p>",
+    "check": [
+      "Before booking",
+      "Write down the main symptom, when it began, who can approve access and any previous repair findings. Keep people clear of water or equipment that may be unsafe."
+    ],
+    "id": "W04-06-1",
+    "title": "Several Drains Slow Down in Baulkham Hills: Where Is the Blockage?",
+    "slug": "several-drains-slow-down-in-baulkham-hills-where-is-the-blockage",
+    "date": "2026-11-09",
+    "updatedDate": "2026-11-09",
+    "indexPath": "/blog/",
+    "path": "/blog/several-drains-slow-down-in-baulkham-hills-where-is-the-blockage/",
+    "service": "/services/sewer-drain-blockages",
+    "serviceURL": "/services/sewer-drain-blockages/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "map-the-symptoms-before-booking",
+        "label": "Map the symptoms before booking"
+      },
+      {
+        "depth": 2,
+        "id": "protect-the-home-from-overflow",
+        "label": "Protect the home from overflow"
+      },
+      {
+        "depth": 2,
+        "id": "prepare-access-to-the-line",
+        "label": "Prepare access to the line"
+      },
+      {
+        "depth": 2,
+        "id": "decide-whether-clearing-settled-the-cause",
+        "label": "Decide whether clearing settled the cause"
+      },
+      {
+        "depth": 2,
+        "id": "keep-each-lines-role-clear",
+        "label": "Keep each line's role clear"
+      },
+      {
+        "depth": 2,
+        "id": "document-a-repeat-fault",
+        "label": "Document a repeat fault"
+      }
+    ],
+    "words": 786,
+    "image": "/images/blog-w04-06-1-featured.webp",
+    "width": 800,
+    "height": 1067
   }
 ]
