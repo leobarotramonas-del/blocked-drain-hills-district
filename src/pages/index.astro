@@ -1,4 +1,5 @@
 ---
+import ProjectShowcase from "../components/ProjectShowcase.astro";
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
 import CtaBand from '../components/CtaBand.astro';
@@ -6,22 +7,10 @@ import { areas, faqs, reviews, services, site } from '../data/site';
 
 const schema = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
-  mainEntity: faqs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
+  mainEntity: faqs.slice(0, 3).map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
 };
 
-const journey = [
-  { title: 'Describe the symptoms', text: 'Tell us which fixtures are affected, what happens when water is used and whether anything is overflowing.' },
-  { title: 'Find the restriction', text: 'We inspect the accessible drain and decide whether mechanical clearing, jetting or another method suits the line.' },
-  { title: 'Confirm the cause', text: 'Where recurrence or damage is suspected, CCTV and locating equipment can show what is happening and where.' },
-  { title: 'Clear, repair, prevent', text: 'We separate the immediate clearing from any recommended repair, then explain practical ways to reduce another blockage.' },
-];
 
-const causes = [
-  ['Roots', 'Roots enter existing cracks and open joints. Cutting restores flow; repairing the entry point addresses the defect.'],
-  ['Grease and residue', 'Fats, soap, hair and sediment narrow the usable pipe over time and may need controlled cleaning.'],
-  ['Wipes and objects', 'Items labelled flushable can remain intact, catch on rough pipework and build a larger obstruction.'],
-  ['Broken pipework', 'Movement, age or poor support can displace, crush or collapse a section so debris keeps collecting.'],
-];
 ---
 <BaseLayout title="24/7 Drain Plumber Hills District | Antons Blocked Drains" description="Blocked drain in the Hills District? Call for professional drain clearing, CCTV inspection, high-pressure water jetting and drain repair advice. Urgent calls answered 24/7." schema={schema}>
   <div class="drain-home">
@@ -52,39 +41,12 @@ const causes = [
       </div>
     </section>
 
-    <section class="cause-section" aria-labelledby="causes-title">
-      <div class="cause-section__intro"><h2 id="causes-title">A blockage is a symptom. The cause decides the fix.</h2><p>DIY plunging may move a soft local obstruction, but recurring, multi-fixture or outdoor blockages can sit deeper in the system. Professional equipment helps clear the line without pretending every drain has the same problem.</p></div>
-      <div class="cause-register">{causes.map(([title, text]) => <article><h3>{title}</h3><p>{text}</p></article>)}</div>
-    </section>
-
-    <section class="equipment-section" aria-labelledby="equipment-title">
-      <div class="equipment-photo"><ResponsiveImage src="/images/drain-camera-inspection.webp" alt="CCTV drain camera and monitor used to inspect underground pipework" widths={[480, 768, 1000]} sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" /></div>
-      <div class="equipment-copy">
-        <h2 id="equipment-title">Professional tools turn guesswork into evidence.</h2>
-        <p>Our licensed drain plumbers select equipment for the symptom, access and condition of the pipe—not simply the most forceful tool on the vehicle.</p>
-        <dl>
-          <div><dt>High-pressure water jetter</dt><dd>Uses controlled water and purpose-selected nozzles to remove suitable roots, grease, silt and deposits.</dd></div>
-          <div><dt>CCTV drain camera</dt><dd>Shows accessible internal pipe conditions after flow and visibility are established.</dd></div>
-          <div><dt>Electronic locator</dt><dd>Relates a camera finding to a position and approximate depth at the surface for targeted repair planning.</dd></div>
-          <div><dt>Drain-repair materials</dt><dd>Compatible PVC drainage pipe, fittings, bedding and backfill are selected for the line and agreed repair scope.</dd></div>
-        </dl>
-        <a class="home-button home-button--blue" href="/services/">Explore Tools &amp; Methods</a> <a class="home-text-link" href="/contact/">Ask about your drain</a>
-      </div>
-    </section>
-
-    <section class="drain-section process-section" aria-labelledby="process-title">
-      <div class="section-heading"><h2 id="process-title">From first call to a drain that makes sense.</h2><p>Clear communication is part of the work. We explain the immediate task, the evidence found and any separate repair recommendation.</p></div>
-      <ol>{journey.map((step, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>
-    </section>
+    <p>Operated by {site.operator} under NSW contractor licence {site.licence}. <a href="/about/">Meet the team</a>.</p>
+    <ProjectShowcase heading="Recent drainage projects in the Hills District and across Sydney" items={["sewer-jetting", "drain-pipework-installation", "restricted-access-excavation"]} id="proof" />
 
     <section class="local-section" aria-labelledby="areas-title">
       <div class="local-section__heading"><h2 id="areas-title">Blocked drain expertise across the Hills District.</h2><p>Property age, trees, slope, access and shared services all influence the right drainage approach. Each local guide explains the practical considerations for that area.</p><a href="/service-areas/">View all service areas</a></div>
-      <div class="local-grid">{areas.map((area) => <a href={`/service-areas/${area.slug}/`}><span>{area.postcode}</span><strong>{area.name}</strong><small>{area.property}</small></a>)}</div>
-    </section>
-
-    <section class="experience-section" aria-labelledby="experience-title">
-      <ResponsiveImage src="/images/team.webp" alt="Three licensed plumbers standing beside a blue service vehicle" widths={[420, 700, 1000]} sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" />
-      <div><h2 id="experience-title">Licensed blocked-drain plumbers for the Hills District.</h2><p>{site.name} handles blocked toilets, sewer and stormwater drains, CCTV inspections, water jetting and pipe repairs. Our licensed team explains the findings, agrees the scope and checks flow after the work.</p><p>Our team brings more than 25 years of plumbing experience. The service is operated by {site.operator}, under NSW contractor licence {site.licence}.</p><a class="home-button home-button--light" href="/about/">Meet the Drain Team</a></div>
+      <div class="local-grid">{areas.map((area) => <a href={`/service-areas/${area.slug}/`}><span>{area.postcode}</span><strong>{area.name}</strong></a>)}</div>
     </section>
 
     <section class="drain-section reviews-section" id="reviews" aria-labelledby="reviews-title">
@@ -94,7 +56,7 @@ const causes = [
 
     <section class="drain-section faq-section" aria-labelledby="faq-title">
       <div class="section-heading"><h2 id="faq-title">Blocked-drain questions, answered clearly.</h2><p>Useful guidance before you call. If wastewater is overflowing, stop using affected fixtures and contact a professional.</p></div>
-      <div class="faq-list">{faqs.map((faq) => <details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div>
+      <div class="faq-list">{faqs.slice(0, 3).map((faq) => <details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div>
     </section>
   </div>
   <CtaBand title="Tell Us What Your Drain Is Doing" />
