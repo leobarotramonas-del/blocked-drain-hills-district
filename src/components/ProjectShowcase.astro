@@ -1,7 +1,8 @@
 ---
+import HomeCall from './HomeCall.astro';
 import { projects } from '../data/projects';
-interface Props { heading?: string; items: string[]; intro?: string; id?: string; }
-const { heading = 'Drainage project footage', items, intro = 'A selection of work by the Antons Plumbing & Gas team across Sydney. These images show the work and access involved, from clearing a drain to reaching buried pipework.', id = 'projects' } = Astro.props;
+interface Props { heading?: string; items: string[]; intro?: string; id?: string; callLabel?: string; }
+const { callLabel, heading = 'Drainage project footage', items, intro = 'A selection of work by the Antons Plumbing & Gas team across Sydney. These images show the work and access involved, from clearing a drain to reaching buried pipework.', id = 'projects' } = Astro.props;
 const chosen = projects.filter(project => items.includes(project.slug));
 const origin = Astro.site?.origin ?? Astro.url.origin;
 const schema = chosen.map(project => project.video ? {
@@ -21,9 +22,10 @@ const schema = chosen.map(project => project.video ? {
         <source src={'/projects/' + project.video} type="video/mp4" />
         <p><a href={'/projects/' + project.video}>Open the project video</a></p>
       </video> : <img src={'/projects/' + project.image} alt={project.caption} srcset={'/projects/' + project.slug + '-480.webp 480w, /projects/' + project.image + ' 900w'} sizes="(max-width:760px) calc(100vw - 3rem), 32vw" width={project.width} height={project.height} loading="lazy" decoding="async" />}
-      <figcaption id={id + '-' + project.slug}><strong>{project.title}</strong><span>{project.caption}</span>{project.video && <small>Project footage · silent excerpt · {project.duration} seconds</small>}</figcaption>
+      <figcaption id={id + '-' + project.slug}><strong>{project.title}</strong><span>{project.caption}</span>{project.video && <small>Project footage Â· silent excerpt Â· {project.duration} seconds</small>}</figcaption>
     </figure>)}
   </div>
+  {callLabel && <HomeCall label={callLabel} />}
 </section>
 {schema.map(item => <script type="application/ld+json" set:html={JSON.stringify(item).replace(/</g, '\u003c')} />)}
 <style>
