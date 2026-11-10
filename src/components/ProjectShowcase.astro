@@ -22,7 +22,7 @@ const schema = chosen.map(project => project.video ? {
         <source src={'/projects/' + project.video} type="video/mp4" />
         <p><a href={'/projects/' + project.video}>Open the project video</a></p>
       </video> : <img src={'/projects/' + project.image} alt={project.caption} srcset={'/projects/' + project.slug + '-480.webp 480w, /projects/' + project.image + ' 900w'} sizes="(max-width:760px) calc(100vw - 3rem), 32vw" width={project.width} height={project.height} loading="lazy" decoding="async" />}
-      <figcaption id={id + '-' + project.slug}><strong>{project.title}</strong><span>{project.caption}</span>{project.video && <small>Project footage Â· silent excerpt Â· {project.duration} seconds</small>}</figcaption>
+      <figcaption id={id + '-' + project.slug}><strong>{project.title}</strong><span>{project.caption}</span>{project.video && <small>Project footage · silent excerpt · {project.duration} seconds</small>}</figcaption>
     </figure>)}
   </div>
   {callLabel && <HomeCall label={callLabel} />}
