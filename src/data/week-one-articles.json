@@ -1309,5 +1309,123 @@
     "image": "/images/blog-w04-06-2-featured.webp",
     "width": 800,
     "height": 1067
+  },
+  {
+    "site": 5,
+    "category": "Sewer drain blockages",
+    "serviceSlug": "sewer-drain-blockages",
+    "photo": 52,
+    "seoTitle": "Kellyville Sewer Reblocks After Jetting | Next Check",
+    "description": "A Kellyville sewer that reblocks after jetting may need a camera inspection. Learn which findings support another clear or a defined pipe repair.",
+    "imageAlt": "Plumber clearing debris from an inspection pit",
+    "caption": "Jetting can restore flow, while inspection can show whether a defect remains.",
+    "introduction": "<p>If a Kellyville sewer keeps blocking soon after jetting, ask for a camera inspection once the line is clear enough to view. The jet may have removed the obstruction while leaving a cracked joint, roots or a low section that collects waste. Record when each blockage happened and which fixtures backed up. The next step should be based on what the pipe actually shows, not an automatic repeat jet.</p>",
+    "takeaways": [
+      "Record the dates and symptoms of each blockage.",
+      "Use camera footage to find a repeat restriction.",
+      "Separate a removable build-up from pipe damage.",
+      "Get a location and scope before approving repair."
+    ],
+    "faqs": [
+      [
+        "Can jetting damage a pipe?",
+        "The method must suit the pipe condition; ask the plumber about suitability."
+      ],
+      [
+        "Why did the blockage return?",
+        "A remaining defect, roots or new build-up may explain it."
+      ],
+      [
+        "Should the line be camera-inspected?",
+        "Yes when repeat symptoms make the cause uncertain and access allows."
+      ],
+      [
+        "Does a root require pipe replacement?",
+        "Not always; assess the entry point and surrounding condition."
+      ],
+      [
+        "Can another jet be useful?",
+        "It may restore flow or allow camera access while a repair is planned."
+      ],
+      [
+        "What if the camera cannot pass?",
+        "Record the stopping point and plan further clearing or access."
+      ],
+      [
+        "Is relining an option?",
+        "Only if the defect and pipe shape are suitable."
+      ],
+      [
+        "Who owns a shared sewer?",
+        "Check the drainage arrangement and relevant property records."
+      ],
+      [
+        "What should the report contain?",
+        "Entry point, distances, visible defect, limits and recommended next step."
+      ],
+      [
+        "What should I keep after repair?",
+        "Before and after footage, work scope and test result."
+      ]
+    ],
+    "conclusion": "Another jet can be a sensible temporary or maintenance step, but repeating it without a diagnosis may leave the same fault in place. Use the camera finding to decide what the pipe needs.",
+    "ctaAnchor": "Kellyville sewer blockage service",
+    "ctaTail": "Call Blocked Drains Hills District with the earlier jetting dates and any footage.",
+    "body": "<h2 id=\"show-the-plumber-the-repeat-pattern\">Show the plumber the repeat pattern</h2><p>List when the drain was jetted, how long it flowed normally and which toilets or gullies then backed up. Mention whether the same symptoms returned or a different fixture is now affected. A household branch and a main sewer line can produce different patterns, so do not assume every slow sink points to the same defect. Keep people clear of sewage overflow and stop using affected fixtures while the line is blocked.</p><h2 id=\"use-the-right-inspection-access\">Use the right inspection access</h2><p>A camera needs a suitable entry point and enough clearance to travel. Ask the technician to state where it entered, which direction it went and how far it reached. If the line is still full of debris, a further clear may be required to get useful footage. Do not interpret a stopped camera as proof of a collapse without checking whether a bend, obstruction or access limit caused the stop.</p><h2 id=\"identify-what-remains-after-cleaning\">Identify what remains after cleaning</h2><p>Footage can show roots entering a joint, a crack, a displaced section, heavy deposits or a pipe that holds water. Ask for stills of the defect and surrounding pipe, with distances from the access point. A single root or bit of grease may not justify a major repair if the line is otherwise sound. Conversely, a confirmed structural opening will not be sealed by jetting. The report should distinguish observation from assumption.</p><h2 id=\"compare-maintenance-and-repair\">Compare maintenance and repair</h2><p>If the pipe is sound after clearing, maintenance and changes to what enters the drain may be enough. If a specific defect repeatedly traps waste, ask for a quote identifying the segment and suitable method. Relining, local replacement and excavation have different access and reinstatement needs. The plumber should explain why the chosen method fits the pipe shape and connections, rather than offer the same solution for every repeat blockage.</p><h2 id=\"clarify-private-and-network-sections\">Clarify private and network sections</h2><p>Sydney Water’s <a href=\"https://www.sydneywater.com.au/plumbing-building-developing/plumbing/wastewater-blockages.html\">wastewater blockage guidance</a> says responsibility depends on where the property’s pipes meet its network. If neighbours also have symptoms, say so. Have the plumber mark the suspected fault and identify the connection before assuming who pays for work near a boundary. A shared line can also require access and agreement from other owners.</p><h2 id=\"ask-for-a-complete-handover\">Ask for a complete handover</h2><p>Keep the video, written location, clearing method, repair recommendation and any limits to the inspection. If a repair follows, ask for a post-work camera or other suitable completion check and note any old sections left untreated. This record helps if a later blockage occurs at a different point. It also gives a second contractor something more useful than the statement that the sewer was jetted twice.</p><h2 id=\"make-the-next-visit-answer-a-question\">Make the next visit answer a question</h2><p>Before another appointment, decide what you need to know: whether the previous jet reached the affected section, whether roots enter through a joint, or whether a low point collects waste. Share this with the technician and ask how the camera run will answer it. If the sewer is blocked again, clearing may be necessary first; the camera cannot give a full view through standing waste. Request the finding in plain language, with the limits noted. If no defect is seen, do not force a repair recommendation. Ask what other branch or use pattern should be investigated before spending on major work.</p>",
+    "check": [
+      "Before booking",
+      "List each jetting date, the interval before reblocking, affected fixtures and available footage."
+    ],
+    "id": "W04-06-3",
+    "title": "Kellyville Sewer Keeps Blocking After Jetting: When to Investigate the Pipe",
+    "slug": "kellyville-sewer-keeps-blocking-after-jetting-when-to-investigate-the-pipe",
+    "date": "2026-11-13",
+    "updatedDate": "2026-11-13",
+    "indexPath": "/blog/",
+    "path": "/blog/kellyville-sewer-keeps-blocking-after-jetting-when-to-investigate-the-pipe/",
+    "service": "/services/sewer-drain-blockages",
+    "serviceURL": "/services/sewer-drain-blockages/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "show-the-plumber-the-repeat-pattern",
+        "label": "Show the plumber the repeat pattern"
+      },
+      {
+        "depth": 2,
+        "id": "use-the-right-inspection-access",
+        "label": "Use the right inspection access"
+      },
+      {
+        "depth": 2,
+        "id": "identify-what-remains-after-cleaning",
+        "label": "Identify what remains after cleaning"
+      },
+      {
+        "depth": 2,
+        "id": "compare-maintenance-and-repair",
+        "label": "Compare maintenance and repair"
+      },
+      {
+        "depth": 2,
+        "id": "clarify-private-and-network-sections",
+        "label": "Clarify private and network sections"
+      },
+      {
+        "depth": 2,
+        "id": "ask-for-a-complete-handover",
+        "label": "Ask for a complete handover"
+      },
+      {
+        "depth": 2,
+        "id": "make-the-next-visit-answer-a-question",
+        "label": "Make the next visit answer a question"
+      }
+    ],
+    "words": 893,
+    "image": "/images/blog-w04-06-3-featured.webp",
+    "width": 800,
+    "height": 800
   }
 ]
