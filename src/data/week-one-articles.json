@@ -1540,5 +1540,118 @@
     "image": "/images/blog-w05-06-1-featured.webp",
     "width": 938,
     "height": 745
+  },
+  {
+    "site": 5,
+    "category": "CCTV drain inspections",
+    "serviceSlug": "cctv-drain-inspections",
+    "photo": 40,
+    "seoTitle": "CCTV Drain Inspection in Cherrybrook | Footage to Keep",
+    "description": "A Cherrybrook drain camera visit should locate a defect and produce useful footage for repair planning, not just a video of a blocked pipe.",
+    "imageAlt": "CCTV inspection view showing roots inside a damaged drainage pipe",
+    "caption": "A located fault and clear visual evidence help compare repair methods.",
+    "introduction": "<p>For a Cherrybrook drain repair, useful CCTV footage should show the accessible pipe after enough clearing to see its wall, identify the defect, record the distance and explain where it lies on the property. A video that stops at murky water or a blockage may prove the camera could not pass, but it may not justify a repair method. Ask the plumber for the finding and its limits in writing.</p>",
+    "takeaways": [
+      "Clear visibility matters more than video length.",
+      "Record the access point, direction and fault distance.",
+      "A locator can help relate a camera finding to the ground above.",
+      "The footage should support the specific repair proposed."
+    ],
+    "faqs": [
+      [
+        "Can a camera inspect a fully blocked pipe?",
+        "It may stop or see little until clearing restores access and visibility."
+      ],
+      [
+        "What should be visible?",
+        "The pipe wall, joints and any defect relevant to the repair decision."
+      ],
+      [
+        "Is a distance counter enough to locate a dig?",
+        "It helps, but bends and cable movement may require a locator check."
+      ],
+      [
+        "Can CCTV identify roots?",
+        "Visible root entry can be recorded in an accessible section."
+      ],
+      [
+        "Can it show pipe fall?",
+        "It may show standing water, but accurate grade needs more than a visual impression."
+      ],
+      [
+        "Should I receive the whole recording?",
+        "Ask what footage and report the service includes before booking."
+      ],
+      [
+        "What if the camera cannot pass a bend?",
+        "The report should state the inspected length and why it stopped."
+      ],
+      [
+        "Does every crack need relining?",
+        "No. Suitability depends on structure, shape, junctions and access."
+      ],
+      [
+        "Can the plumber mark the fault above ground?",
+        "A compatible electronic locator can help when conditions allow."
+      ],
+      [
+        "What belongs in a repair quote?",
+        "The fault location, proposed method, access, junction treatment, testing and reinstatement."
+      ]
+    ],
+    "body": "<h2 id=\"set-the-question-before-inspection\">Set the question before inspection</h2><p>Ask what the camera visit needs to decide: why the drain blocks repeatedly, where a broken section sits or whether a repair route is viable. The plumber should identify the access point and affected line first. A short recording of the relevant defect can be more useful than a long tour of clean pipe. Without an agreed question, a video may look impressive but fail to tell you whether to clean, reline or excavate.</p><h2 id=\"make-the-pipe-visible-enough-to-assess\">Make the pipe visible enough to assess</h2><p>A camera looking through standing wastewater, grease or heavy roots may not show the wall. Clearing or jetting a suitable line first can give much better evidence. The sequence depends on pipe condition and safe access; do not demand high pressure in a fragile line. Sydney Water’s <a href=\"https://www.sydneywater.com.au/build-develop/plumbing/wastewater-investigation-guide.html\">wastewater investigation guide</a> describes checking blockages and clarifying responsibility before repairs.</p><h2 id=\"record-the-route-and-fault-position\">Record the route and fault position</h2><p>The operator should name the access point, travel direction and measured distance to the observed problem. A sonde, an electronic device on the camera head, can help locate it from the surface. Ask for a mark or sketch if excavation may follow. Cable length alone can be imprecise around bends, so the surface location should be checked against the pipe route and other services before a floor or driveway is opened.</p><h2 id=\"show-what-the-camera-actually-found\">Show what the camera actually found</h2><p>The report should distinguish a deposit that was removed from a continuing defect, such as an open joint, crack, collapsed section or root entry. Still images can help, but the adjoining footage shows context and whether the camera passed the fault. If visibility was poor or a bend stopped progress, state the inspected distance. A limitation is not a failure; pretending an unseen section is sound is the problem.</p><h2 id=\"connect-the-finding-to-a-repair-choice\">Connect the finding to a repair choice</h2><p>For a local break, a targeted excavation may make sense. Relining may suit some structurally sound runs but must account for junctions and pipe shape. Ask why the quoted method fits this specific fault and what happens to connected branches. NSW requires appropriate licensing for <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">draining work</a>. A repair quote should refer to the recorded finding rather than assuming every root intrusion requires the same treatment.</p><h2 id=\"keep-a-usable-record-for-comparison\">Keep a usable record for comparison</h2><p>Request the video, key images, location notes, limits and recommendation in a format you can share with a property manager or another qualified contractor. Save the dates of earlier blockages and clearings alongside it. If responsibility may involve a shared or network connection, location evidence matters; Sydney Water explains this in its <a href=\"https://www.sydneywater.com.au/faults-works/wastewater-blockages.html\">blockage guidance</a>. A clear report makes a second quote more comparable.</p>",
+    "conclusion": "Good CCTV evidence does more than confirm a drain is blocked. It shows the relevant pipe condition, locates the fault and explains what remains unseen before a repair is chosen.",
+    "ctaAnchor": "Cherrybrook CCTV drain inspection service",
+    "ctaTail": "Call Blocked Drains Hills District with the blockage history and the decision the footage needs to answer.",
+    "check": [
+      "Before booking",
+      "Ask whether the visit includes clearing if needed, fault location, footage and a written summary."
+    ],
+    "id": "W05-06-2",
+    "title": "CCTV Drain Inspection in Cherrybrook: Which Footage Helps Plan a Repair?",
+    "slug": "cctv-drain-inspection-in-cherrybrook-which-footage-helps-plan-a-repair",
+    "date": "2026-11-18",
+    "updatedDate": "2026-11-18",
+    "indexPath": "/blog/",
+    "path": "/blog/cctv-drain-inspection-in-cherrybrook-which-footage-helps-plan-a-repair/",
+    "service": "/services/cctv-drain-inspections",
+    "serviceURL": "/services/cctv-drain-inspections/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "set-the-question-before-inspection",
+        "label": "Set the question before inspection"
+      },
+      {
+        "depth": 2,
+        "id": "make-the-pipe-visible-enough-to-assess",
+        "label": "Make the pipe visible enough to assess"
+      },
+      {
+        "depth": 2,
+        "id": "record-the-route-and-fault-position",
+        "label": "Record the route and fault position"
+      },
+      {
+        "depth": 2,
+        "id": "show-what-the-camera-actually-found",
+        "label": "Show what the camera actually found"
+      },
+      {
+        "depth": 2,
+        "id": "connect-the-finding-to-a-repair-choice",
+        "label": "Connect the finding to a repair choice"
+      },
+      {
+        "depth": 2,
+        "id": "keep-a-usable-record-for-comparison",
+        "label": "Keep a usable record for comparison"
+      }
+    ],
+    "words": 818,
+    "image": "/images/blog-w05-06-2-featured.webp",
+    "width": 800,
+    "height": 800
   }
 ]
