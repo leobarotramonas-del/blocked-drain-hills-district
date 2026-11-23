@@ -1,0 +1,36 @@
+{
+  "/services/drain-repairs": {
+    "description": "Drain repairs in the Hills District for broken or displaced pipes. We assess the fault, explain excavation options and plan access before work."
+  },
+  "/services/cctv-drain-inspections": {
+    "description": "CCTV drain inspections in the Hills District to locate roots, damaged joints and recurring restrictions. Call to discuss the symptoms and access."
+  },
+  "/services/sewer-drain-blockages": {
+    "description": "Sewage backups or overflowing gullies in the Hills District? Arrange sewer drain assessment, clearing and inspection with Antons."
+  },
+  "/services/blocked-sinks-showers": {
+    "description": "Blocked sink or shower in the Hills District? Antons checks affected fixtures, investigates the cause and explains suitable clearing options."
+  },
+  "/services/tree-root-blockages": {
+    "description": "Tree roots in your Hills District drain? Arrange root removal and inspection to find entry points and assess repair options for damaged pipework."
+  },
+  "/services/high-pressure-water-jetting": {
+    "description": "High-pressure water jetting in the Hills District for suitable grease, root and silt blockages. Call Antons to discuss the drain and access."
+  },
+  "/services": {
+    "description": "Hills District drain services: sewer and toilet clearing, CCTV inspections, water jetting, root removal and pipe repairs. Call to discuss the fault."
+  },
+  "/services/stormwater-drains": {
+    "description": "Stormwater drain help in the Hills District for slow pits, overflowing downpipes and pooling water. Call to arrange assessment and clearing."
+  },
+  "/services/blocked-toilets": {
+    "description": "Toilet rising, gurgling or overflowing in the Hills District? Call Antons for assessment and suitable clearing. Explain if other fixtures are affected."
+  },
+  "/about": {
+    "description": "Meet the licensed Antons team serving the Hills District. Learn how we inspect blocked drains, choose clearing methods and explain repair options.",
+    "title": "About Our Hills District Drain Team | Antons"
+  },
+  "/": {
+    "description": "Blocked drains in the Hills District? Call Antons for drain clearing, CCTV inspections and repair advice. Urgent calls are answered 24/7."
+  }
+}
