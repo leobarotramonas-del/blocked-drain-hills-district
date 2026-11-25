@@ -1879,5 +1879,118 @@
     "image": "/images/blog-w06-06-1-featured.webp",
     "width": 960,
     "height": 1280
+  },
+  {
+    "site": 5,
+    "category": "Stormwater drains",
+    "serviceSlug": "stormwater-drains",
+    "photo": 42,
+    "seoTitle": "Gravel in a Dural Driveway Drain | Find the Entry",
+    "description": "A Dural driveway drain keeps filling with gravel? Check surface flow, pit edges and pipe outlets to locate where debris enters before clearing it again.",
+    "imageAlt": "Drainage excavation near a paved driveway",
+    "caption": "Repeated gravel in a driveway drain calls for a check of the contributing surface and pit.",
+    "introduction": "<p>If a Dural driveway drain repeatedly fills with gravel, find the source before booking another clean-out. Debris can wash from an unsealed driveway edge, garden bed or upstream pit, or enter through a damaged grate or pipe connection. Record when it appears and where it first collects. A plumber can clear the line and inspect the pit and outlet, but stopping the next wash-in may also require surface work.</p>",
+    "takeaways": [
+      "Photograph the gravel before sweeping so its path remains visible.",
+      "Compare the drain after light rain and heavy runoff.",
+      "A clear pipe will block again if the surface keeps feeding it stones.",
+      "Ask whether the fault is in the pit, pipe or surrounding driveway."
+    ],
+    "faqs": [
+      [
+        "Can gravel wash in from the driveway?",
+        "Yes, especially from loose edges or an unsealed surface."
+      ],
+      [
+        "Should I lift the grate?",
+        "Only if it is safe and designed for routine access."
+      ],
+      [
+        "Will jetting solve the problem permanently?",
+        "It clears debris, but not an ongoing source of gravel."
+      ],
+      [
+        "Could a broken pipe admit stones?",
+        "Yes. Inspection can help locate a damaged connection or wall."
+      ],
+      [
+        "Why does it happen only in storms?",
+        "Higher runoff can move loose material from farther uphill."
+      ],
+      [
+        "Can a pit basket help?",
+        "It may catch debris, but the source and maintenance still matter."
+      ],
+      [
+        "What if water reaches the garage?",
+        "Keep people safe, avoid electrical hazards and seek prompt drainage help."
+      ],
+      [
+        "What should I photograph?",
+        "The grate, pit, driveway slope and debris path after rain."
+      ],
+      [
+        "Who repairs an unsealed surface?",
+        "The needed trade depends on the paving or landscaping defect."
+      ],
+      [
+        "What should a drainage quote include?",
+        "Clearing, inspection, the found entry point and any separate surface repair."
+      ]
+    ],
+    "body": "<h2 id=\"start-uphill-of-the-grate\">Start uphill of the grate</h2><p>Look at the driveway slope after rain, staying clear of moving water and slippery edges. Gravel near an unsealed shoulder, garden path or vehicle wheel track may be carried straight to the grate. Photograph the line of deposits before cleaning. Check whether there are several grates connected in sequence and whether the upstream one already holds the same material. The first place gravel appears is often more useful than the largest pile at the low point.</p><h2 id=\"inspect-the-pit-without-damaging-it\">Inspect the pit without damaging it</h2><p>A driveway pit can collect sediment by design, but a thick bed of gravel can cover its outlet and reduce storage. If the grate is safe and intended to lift, note whether the pit sides, frame and outlet appear intact; do not climb into it or force a heavy grate. A broken edge can let surrounding bedding or soil collapse inward. Photograph the outlet level and any visible crack. A drain specialist can safely remove debris and assess whether the pit itself is losing material.</p><h2 id=\"check-the-pipe-path-after-clearing\">Check the pipe path after clearing</h2><p>If gravel reappears despite a sound surface, the connected stormwater line may need inspection. A camera can show damaged joints, an open connection, sediment build-up or a sag where stones settle. A full pipe can also make water back up into the pit and stir debris that was already there. Ask for a located finding rather than assuming every stone entered through the grate. The line may need cleaning before footage is clear enough to decide.</p><h2 id=\"separate-drainage-and-surface-repairs\">Separate drainage and surface repairs</h2><p>Clearing the pit or jetting the pipe restores capacity but will not seal an unpaved shoulder or repair paving that sheds aggregate. A surface contractor may need to address edging, fall or loose material while a licensed drain specialist handles the stormwater pipe. Do not pave over a grate or redirect runoff toward a neighbour. A coordinated scope should state which source was found and which trade will correct it. Surface changes should preserve safe access for future drain maintenance.</p><h2 id=\"plan-for-the-next-rainfall\">Plan for the next rainfall</h2><p>After cleaning, take a photograph of the empty pit and mark the date. Compare it after the next modest shower and after heavier rain. If gravel returns quickly, that narrows the feed path and helps prioritise repair. Keep people away if water threatens a garage or electrical equipment. Do not attempt to excavate a buried pipe based on a wet patch alone. NSW requires the right <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">licence or certificate for drainage work</a>.</p><h2 id=\"ask-for-a-practical-inspection-scope\">Ask for a practical inspection scope</h2><p>When booking a Dural driveway drain visit, send a photo of the driveway approach, grate, pit and material. Say whether the driveway is gravel, asphalt, pavers or concrete and when the issue first appeared. Ask the contractor to clear enough debris to assess the outlet, test flow and recommend a camera inspection if the source remains uncertain. The quote should distinguish cleaning from pipe repair and any paving or landscaping work.</p>",
+    "conclusion": "The durable fix depends on where gravel enters. Clear the drain, document its condition and address the surface or pipe defect that feeds it.",
+    "ctaAnchor": "Dural stormwater drain service",
+    "ctaTail": "Show Drains Hills District the gravel path and pit photographs so we can discuss the drainage inspection.",
+    "check": [
+      "Gravel-path check",
+      "After rain, is the first fresh gravel above the grate, inside the pit wall or at the pipe outlet? Record the earliest visible point."
+    ],
+    "id": "W06-06-2",
+    "title": "A Dural Driveway Drain Fills With Gravel: Where Is the Debris Entering?",
+    "slug": "a-dural-driveway-drain-fills-with-gravel-where-is-the-debris-entering",
+    "date": "2026-11-25",
+    "updatedDate": "2026-11-25",
+    "indexPath": "/blog/",
+    "path": "/blog/a-dural-driveway-drain-fills-with-gravel-where-is-the-debris-entering/",
+    "service": "/services/stormwater-drains",
+    "serviceURL": "/services/stormwater-drains/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "start-uphill-of-the-grate",
+        "label": "Start uphill of the grate"
+      },
+      {
+        "depth": 2,
+        "id": "inspect-the-pit-without-damaging-it",
+        "label": "Inspect the pit without damaging it"
+      },
+      {
+        "depth": 2,
+        "id": "check-the-pipe-path-after-clearing",
+        "label": "Check the pipe path after clearing"
+      },
+      {
+        "depth": 2,
+        "id": "separate-drainage-and-surface-repairs",
+        "label": "Separate drainage and surface repairs"
+      },
+      {
+        "depth": 2,
+        "id": "plan-for-the-next-rainfall",
+        "label": "Plan for the next rainfall"
+      },
+      {
+        "depth": 2,
+        "id": "ask-for-a-practical-inspection-scope",
+        "label": "Ask for a practical inspection scope"
+      }
+    ],
+    "words": 872,
+    "image": "/images/blog-w06-06-2-featured.webp",
+    "width": 640,
+    "height": 640
   }
 ]
