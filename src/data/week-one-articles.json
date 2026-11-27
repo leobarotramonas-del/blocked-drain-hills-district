@@ -1992,5 +1992,118 @@
     "image": "/images/blog-w06-06-2-featured.webp",
     "width": 640,
     "height": 640
+  },
+  {
+    "site": 5,
+    "category": "Sewer drains",
+    "serviceSlug": "cctv-drain-inspections",
+    "photo": 39,
+    "seoTitle": "North Kellyville Sewer Holds Water After Jetting | CCTV Checks",
+    "description": "A North Kellyville sewer still holds water after jetting? Learn what camera footage should show before choosing another clearing or a pipe repair.",
+    "imageAlt": "Drain camera equipment positioned for a sewer inspection",
+    "caption": "Camera footage after jetting should show the pipe, defect location and standing-water extent.",
+    "introduction": "<p>If a North Kellyville sewer still holds water after jetting, the next step is a camera inspection of the cleared line, not an automatic second jet. The footage should show how much water remains, where it starts and ends, and whether roots, a displaced joint, sag or poor grade is visible. A camera alone may suggest a fall problem; measurements may be needed to confirm it.</p>",
+    "takeaways": [
+      "Jetting can clear debris without changing a pipe’s shape or fall.",
+      "Request footage from a known access point with distances.",
+      "A camera image of standing water does not measure grade precisely.",
+      "Repair scope should follow a located, explained finding."
+    ],
+    "faqs": [
+      [
+        "Is water in a sewer pipe always a fault?",
+        "Some residual water may be present; persistent depth and extent need assessment."
+      ],
+      [
+        "Can jetting fix a sag?",
+        "No. Jetting removes obstruction but does not reshape a pipe."
+      ],
+      [
+        "What does a camera need to show?",
+        "The water extent, pipe wall, joints, distance and accessible downstream section."
+      ],
+      [
+        "Can roots be hidden under water?",
+        "Yes. Clearing and another pass may be needed for a useful view."
+      ],
+      [
+        "Does camera footage measure pipe fall?",
+        "It shows symptoms; a survey can measure grade where needed."
+      ],
+      [
+        "Should the line be jetted again?",
+        "Only if another obstruction or poor visibility justifies it."
+      ],
+      [
+        "Can one low section be repaired?",
+        "Often, if it is located and the adjacent pipe is sound."
+      ],
+      [
+        "What if several sections hold water?",
+        "A wider grade or pipe-condition assessment may be needed."
+      ],
+      [
+        "Should I ask for the video?",
+        "Yes. Keep the full recording and findings."
+      ],
+      [
+        "What belongs in a repair quote?",
+        "Located section, access, pipe work, testing and restoration."
+      ]
+    ],
+    "conclusion": "Standing water after jetting is a reason to inspect and locate the cause. The camera should distinguish remaining obstruction from a structural or grade problem before repair is chosen.",
+    "ctaAnchor": "North Kellyville CCTV drain inspections",
+    "ctaTail": "Send Drains Hills District the jetting history and footage so we can plan a decision-ready camera assessment.",
+    "check": [
+      "Camera report essentials",
+      "Does the recording show a known start point, distance to standing water, its full extent and sound pipe beyond it?"
+    ],
+    "body": "<h2 id=\"start-the-camera-from-a-known-point\">Start the camera from a known point</h2><p>Record the inspection opening and distance along the line, then keep footage of the approach to the pooled water. A single still of a submerged lens cannot show how long the affected section is. Ask whether the camera passed the pool and what the downstream pipe looked like. The report should identify pipe material, diameter if known, visible joint condition and any debris that still blocks the view. If the camera cannot pass, that limit matters as much as the images it captured.</p><h2 id=\"distinguish-remaining-debris-from-pipe-shape\">Distinguish remaining debris from pipe shape</h2><p>Jetting may remove soft waste and roots, but a displaced joint, flattened pipe or sag can still hold water. Conversely, water on a camera pass can be influenced by recent flushing and does not always prove a permanent defect. Compare footage before and after cleaning where available. Note the depth and length of the pool and whether solid matter collects there. The question is whether a physical fault explains repeated blockage, not simply whether the camera saw a reflective surface.</p><h2 id=\"confirm-fall-before-a-grade-driven-repair\">Confirm fall before a grade-driven repair</h2><p>A camera gives a visual clue to a low point or poor fall, but it is not a level survey. If the proposed repair depends on reversing a grade issue, ask what location and measurements support that conclusion. A targeted excavation may reset a short section; a longer poorly graded run may require a different design. Also locate nearby services, paving and property boundaries before pricing access. Do not commit to a large replacement based solely on a short flooded clip.</p><h2 id=\"tie-the-next-method-to-the-finding\">Tie the next method to the finding</h2><p>If an accessible obstruction remains, further clearing may be reasonable. If the pipe wall is cracked, a joint is offset or the line sags, more jetting will not provide a permanent structural repair. Relining may help some defects but does not reliably remove an incorrect pipe fall. Ask the contractor to state what each option would and would not fix, how the line will be checked afterward and whether a camera can confirm the completed condition.</p><h2 id=\"keep-the-work-within-the-right-scope\">Keep the work within the right scope</h2><p>NSW requires an appropriate <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">licence or certificate for draining work</a>. Ask the person assessing the fault to distinguish what has been observed from what still needs testing. A description such as “blocked”, “leaking” or “broken” is a symptom, not a priced repair scope. Before work starts, ask what will be inspected, what can be repaired at the first visit, what might need separate access or parts, and how the completed work will be checked. Keep any report, photographs and invoice with the property records.</p><h2 id=\"make-a-useful-booking-and-compare-proposals\">Make a useful booking and compare proposals</h2><p>For a North Kellyville inspection, give the date and result of jetting, how soon the blockage returned and any before-and-after footage. Ask for a camera report with access point, distances, visible defect, water extent and uncertainties. If the recommendation is a local repair, request a marked location and adjoining pipe condition. If it is whole-run replacement, ask what evidence rules out a smaller scope. This makes the next visit useful even if excavation is eventually required.</p>",
+    "id": "W06-06-3",
+    "title": "North Kellyville Sewer Holds Water After Jetting: What Does the Camera Need to Show?",
+    "slug": "north-kellyville-sewer-holds-water-after-jetting-what-does-the-camera-need-to-show",
+    "date": "2026-11-27",
+    "updatedDate": "2026-11-27",
+    "indexPath": "/blog/",
+    "path": "/blog/north-kellyville-sewer-holds-water-after-jetting-what-does-the-camera-need-to-show/",
+    "service": "/services/cctv-drain-inspections",
+    "serviceURL": "/services/cctv-drain-inspections/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "start-the-camera-from-a-known-point",
+        "label": "Start the camera from a known point"
+      },
+      {
+        "depth": 2,
+        "id": "distinguish-remaining-debris-from-pipe-shape",
+        "label": "Distinguish remaining debris from pipe shape"
+      },
+      {
+        "depth": 2,
+        "id": "confirm-fall-before-a-grade-driven-repair",
+        "label": "Confirm fall before a grade-driven repair"
+      },
+      {
+        "depth": 2,
+        "id": "tie-the-next-method-to-the-finding",
+        "label": "Tie the next method to the finding"
+      },
+      {
+        "depth": 2,
+        "id": "keep-the-work-within-the-right-scope",
+        "label": "Keep the work within the right scope"
+      },
+      {
+        "depth": 2,
+        "id": "make-a-useful-booking-and-compare-proposals",
+        "label": "Make a useful booking and compare proposals"
+      }
+    ],
+    "words": 895,
+    "image": "/images/blog-w06-06-3-featured.webp",
+    "width": 640,
+    "height": 854
   }
 ]
